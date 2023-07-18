@@ -1,0 +1,2204 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<header>
+
+<div class="container-fluid breadcrumb-container">
+<div class="container">
+<ol class="breadcrumb breadCrumbList" itemscope itemtype="http://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" class="breadcrumb-item" itemscope itemtype="http://schema.org/ListItem">
+<a itemprop="item" typeof="WebPage" href="/" title="InstaFollowers"><span class="icon-home"></span><span itemprop="name" class="d-none">InstaFollowers</span></a>
+<meta itemprop="position" content="1">
+</li>
+<li itemprop="itemListElement" class="breadcrumb-item" itemscope itemtype="http://schema.org/ListItem">
+<a itemprop="item" typeof="WebPage" title="Buy Instagram Followers" href="buy-instagram-followers">
+<span itemprop="name">Buy Instagram Followers</span>
+</a>
+<meta itemprop="position" content="2">
+</li>
+</ol>
+</div>
+</div>
+</header>
+<main>
+<div class="container">
+<section class="page">
+<div class="row">
+<div class="col-md-12 buttons-container">
+<div class="page-buttons menu-buttons">
+<div class="dropdown menu-drop">
+<div title="Instagram" class="btn btn-page btn-instagram-gradient group-btn text-white selected" id="instagram" onclick="isJqLoaded('menuClick', ['frontend'], this)" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)">
+<div class="d-lg-block justify-center">
+<span class="icon-instagram group-btn-icon"></span>
+<span class="button-text group-btn-text">Instagram</span>
+</div>
+</div>
+<div class="dropdown-menu group-collapse">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-instagram-likes" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Likes with Instant Delivery" class="btn btn-page btn-outline-like group-btn ">
+<div class="justify-center w-100">
+<span class="icon-like"></span>
+<span class="button-text group-btn-text">Buy Instagram Likes</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-instagram-likes" title="Buy Instagram Likes with Instant Delivery" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/automatic-instagram-likes" title="Buy Automatic Instagram Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Automatic Instagram Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-monthly-instagram-likes" title="Buy Instagram Monthly Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Monthly Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/get-free-instagram-likes" title="Get Free Instagram Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Free Instagram Likes</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-followers" title="Buy Instagram Followers" class="btn btn-page btn-outline-follower group-btn selected ">
+<div class="justify-center w-100">
+<span class="icon-follower"></span>
+<span class="button-text group-btn-text">Buy Instagram Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Views" class="btn btn-page btn-outline-view group-btn ">
+<div class="justify-center w-100">
+<span class="icon-video"></span>
+<span class="button-text group-btn-text">Buy Instagram Views</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-instagram-views" title="Buy Instagram Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-automatic-instagram-views" title="Buy Automatic Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Automatic Instagram Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-instagram-views" title="Free Instagram Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Free Instagram Views</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-comments" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Comments" class="btn btn-page btn-outline-comment group-btn ">
+<div class="justify-center w-100">
+<span class="icon-comment"></span>
+<span class="button-text group-btn-text">Buy Instagram Comments</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-instagram-comments" title="Buy Instagram Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Comments</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-automatic-instagram-comments" title="Buy Automatic Instagram Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Automatic Instagram Comments</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-comment-likes" title="Buy Instagram Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Comment Likes</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+ <div class="dropright menu-drop">
+<a href="/buy-instagram-reels-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Reels Views" class="btn btn-page btn-outline-reels group-btn ">
+<div class="justify-center w-100">
+<span class="icon-reels"></span>
+<span class="button-text group-btn-text">Instagram Reels</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-instagram-reels-views" title="Buy Instagram Reels Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Reels Video Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-reels-likes" title="Buy Instagram Reels Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Reels Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-reels-comments" title="Buy Instagram Reels Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Reels Comments</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-real-instagram-story-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Story Views" class="btn btn-page btn-outline-instagram-other group-btn ">
+<div class="justify-center w-100">
+<span class="icon-instagram-other"></span>
+<span class="button-text group-btn-text">Instagram Others</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-instagram-live-video-views" title="Buy Instagram Live Video Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Live Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-profile-visits" title="Buy Instagram Profile Visits" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Profile Visits</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-saves" title="Buy Instagram Saves" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Saves</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-instagram-impressions" title="Buy Instagram Impressions, Reach" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Impressions, Reach</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-real-instagram-story-views" title="Buy Instagram Story Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Instagram Story Views</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown menu-drop">
+<a href="/buy-backlinks" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Backlinks" class="btn btn-page btn-rocket group-btn ">
+<div class="justify-center w-100 d-lg-block">
+<span class="icon-rocket"></span>
+<span class="button-text group-btn-text">Buy Backlinks</span>
+<span class="sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-menu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-backlinks" title="Buy Backlinks" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Backlinks</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-seo-services-packages" title="Buy SEO Packages & SEO Services" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">SEO Services &amp; Packages</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/seo-consulting" title="SEO Consulting Services" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy SEO Consulting</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/seo-report" title="Buy SEO Report Services" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy SEO Report</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/on-page-seo-services" title="On-Page SEO Services" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy On-Page SEO Services</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/web-acceleration" title="Buy Web Acceleration" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Web Acceleration</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/backlink-analysis" title="Backlink Analysis" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Backlink Analysis</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown menu-drop">
+<a href="/buy-tiktok-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy TikTok Followers" class="btn btn-page btn-tiktok group-btn ">
+<div class="justify-center w-100 d-lg-block">
+<span class="icon-tiktok"></span>
+<span class="button-text group-btn-text">TikTok Services</span>
+<span class="sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-menu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-tiktok-followers" title="Buy TikTok Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy TikTok Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-real-tiktok-likes" title="Buy TikTok Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy TikTok Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-automatic-tiktok-likes" title="Buy Automatic TikTok Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Automatic TikTok Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tiktok-views" title="Buy TikTok Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">TikTok Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-automatic-tiktok-views" title="Buy Automatic TikTok Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Automatic TikTok Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tiktok-shares" title="Buy TikTok Shares" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">TikTok Shares</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tiktok-comments" title="Buy TikTok Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">TikTok Comments</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tiktok-live-views" title="Buy TikTok Live Video Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">TikTok Live Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tiktok-comment-likes" title="Buy TikTok Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">TikTok Comment Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tiktok-saves" title="Buy TikTok Saves" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy TikTok Saves</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-tiktok-fans" title="Free TikTok Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Free TikTok Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-tiktok-likes" title="Free TikTok Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+ <span class="button-text group-btn-text">Free TikTok Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-tiktok-views" title="Free TikTok Video Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Free TikTok Video Views</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown menu-drop">
+<a href="/buy-facebook-likes" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Facebook Likes (Post)" class="btn btn-page btn-facebook group-btn ">
+<div class="justify-center w-100 d-lg-block">
+<span class="icon-facebook"></span>
+<span class="button-text group-btn-text">Facebook Services</span>
+<span class="sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-menu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-facebook-likes" title="Buy Facebook Likes (Post)" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Facebook Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-page-likes" title="Buy Facebook Page Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Facebook Page Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-views" title="Buy Facebook Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Facebook Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-followers" title="Buy Facebook Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Facebook Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-5-star-ratings" title="Buy Facebook 5 Star Ratings" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Facebook 5 Star Ratings</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-comments" title="Buy Facebook Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Facebook Comments</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-comment-likes" title="Buy Facebook Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Facebook Comment Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-shares" title="Buy Facebook Shares" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Facebook Shares</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-facebook-live-viewers" title="Buy Facebook Live Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Facebook Live Viewers</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown menu-drop">
+<a href="/buy-real-twitter-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Twitter Followers" class="btn btn-page btn-twitter group-btn ">
+<div class="justify-center w-100 d-lg-block">
+<span class="icon-twitter"></span>
+<span class="button-text group-btn-text">Twitter Services</span>
+<span class="sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-menu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-real-twitter-followers" title="Buy Twitter Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitter Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitter-retweets" title="Buy Twitter Retweets" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitter Retweets</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitter-likes" title="Buy Twitter Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitter Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitter-space-listeners" title="Buy Twitter Space Listeners" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Twitter Space Listeners</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitter-poll-votes" title="Buy Twitter Poll Votes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitter Poll Votes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitter-impressions" title="Buy Twitter Impressions" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitter Impressions</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitter-views" title="Buy Twitter Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitter Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitter-clicks" title="Buy Twitter Clicks" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitter Clicks</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-twitter-video-views" title="Free Twitter Video Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Free Twitter Video Views</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown menu-drop">
+<div title="Other" class="btn btn-page btn-more-gradient group-btn text-white" id="more" onclick="isJqLoaded('menuClick', ['frontend'], this)" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)">
+<div class="d-lg-block justify-center">
+<span class="icon-more-vertical group-btn-icon"></span>
+<span class="button-text group-btn-text">Other</span>
+</div>
+</div>
+<div class="dropdown-menu group-collapse">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-youtube-subscribers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy YouTube Subscribers" class="btn btn-page btn-outline-youtube group-btn ">
+<div class="justify-center w-100">
+<span class="icon-youtube"></span>
+<span class="button-text group-btn-text">YouTube Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-youtube-subscribers" title="Buy YouTube Subscribers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Subscribers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-views" title="Buy YouTube Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-likes" title="Buy YouTube Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-live-views" title="Buy YouTube Live Stream Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy YouTube Live Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-dislikes" title="Buy YouTube Dislikes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Dislikes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-comments" title="Buy YouTube Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Comments</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-comment-likes" title="Buy YouTube Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">YouTube Comment Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-shares" title="Buy YouTube Shares" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Shares</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-4000-hours-youtube-watch-time-for-monetization" title="Buy YouTube Watch Hours" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Watch Hours</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-youtube-likes" title="Free YouTube Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Free YouTube Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-youtube-views" title="Free YouTube Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Free YouTube Views</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-discord-members" title="Buy Discord Members" class="btn btn-page btn-outline-discord group-btn ">
+<div class="justify-center w-100">
+<span class="icon-discord"></span>
+<span class="button-text group-btn-text">Buy Discord Members</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-spotify-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Spotify Followers" class="btn btn-page btn-outline-spotify group-btn ">
+<div class="justify-center w-100">
+<span class="icon-spotify"></span>
+<span class="button-text group-btn-text">Spotify Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-spotify-followers" title="Buy Spotify Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Spotify Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-spotify-plays" title="Buy Spotify Plays" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Spotify Plays</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-spotify-monthly-listeners" title="Buy Spotify Monthly Listeners" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Spotify Monthly Listeners</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-spotify-playlist-followers" title="Buy Spotify Playlist Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Spotify Playlist Followers</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-shorts-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy YouTube Shorts Views" class="btn btn-page btn-outline-youtube group-btn ">
+<div class="justify-center w-100">
+<span class="icon-youtube-shorts"></span>
+<span class="button-text group-btn-text">YouTube Shorts</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-youtube-shorts-likes" title="Buy YouTube Shorts Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Shorts Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-shorts-views" title="Buy YouTube Shorts Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Shorts Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-youtube-shorts-comments" title="Buy YouTube Shorts Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy YouTube Shorts Comments</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitch-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Twitch Followers" class="btn btn-page btn-outline-twitch group-btn ">
+<div class="justify-center w-100">
+<span class="icon-twitch"></span>
+<span class="button-text group-btn-text">Twitch Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-twitch-followers" title="Buy Twitch Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitch Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitch-viewers" title="Buy Twitch Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitch Viewers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitch-clip-views" title="Buy Twitch Clip Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitch Clip Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-twitch-live-stream-views" title="Buy Twitch Live Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Twitch Live Viewers</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-pinterest-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Pinterest Followers" class="btn btn-page btn-outline-pinterest group-btn ">
+<div class="justify-center w-100">
+<span class="icon-pinterest"></span>
+<span class="button-text group-btn-text">Pinterest Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-pinterest-followers" title="Buy Pinterest Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Pinterest Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-pinterest-repins" title="Buy Pinterest Repins" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Pinterest Repins</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-pinterest-board-followers" title="Buy Pinterest Board Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Pinterest Board Followers</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-linkedin-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy LinkedIn Followers" class="btn btn-page btn-outline-linkedin group-btn ">
+<div class="justify-center w-100">
+<span class="icon-linkedin"></span>
+<span class="button-text group-btn-text">LinkedIn Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-linkedin-followers" title="Buy LinkedIn Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy LinkedIn Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-linkedin-page-followers" title="Buy LinkedIn Page Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy LinkedIn Page Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-linkedin-likes" title="Buy LinkedIn Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy LinkedIn Likes</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-telegram-members" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Telegram Group Members" class="btn btn-page btn-outline-telegram group-btn ">
+<div class="justify-center w-100">
+<span class="icon-telegram"></span>
+<span class="button-text group-btn-text">Telegram Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-telegram-members" title="Buy Telegram Group Members" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Telegram Group Members</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-telegram-post-views" title="Buy Telegram Post Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Telegram Post Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-telegram-reactions" title="Buy Telegram Reactions" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Telegram Reactions</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/upvotes" title="Reddit Upvotes with Instant Delivery" class="btn btn-page btn-outline-reddit group-btn ">
+<div class="justify-center w-100">
+<span class="icon-reddit"></span>
+<span class="button-text group-btn-text" data-status="New">Reddit Upvotes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-soundcloud-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy SoundCloud Followers" class="btn btn-page btn-outline-soundcloud group-btn ">
+<div class="justify-center w-100">
+<span class="icon-soundcloud"></span>
+<span class="button-text group-btn-text">SoundCloud Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-soundcloud-followers" title="Buy SoundCloud Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy SoundCloud Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-soundcloud-likes" title="Buy SoundCloud Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy SoundCloud Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-soundcloud-comments" title="Buy SoundCloud Comments" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy SoundCloud Comments</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-soundcloud-reposts" title="Buy SoundCloud Reposts" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy SoundCloud Reposts</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-soundcloud-plays" title="Buy SoundCloud Plays" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy SoundCloud Plays</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/free-soundcloud-plays" title="Free SoundCloud Plays" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Free SoundCloud Plays</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tumblr-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Tumblr Followers" class="btn btn-page btn-outline-tumblr group-btn ">
+<div class="justify-center w-100">
+<span class="icon-tumblr"></span>
+<span class="button-text group-btn-text">Tumblr Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-tumblr-followers" title="Buy Tumblr Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Tumblr Followers</span>
+ </div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tumblr-likes" title="Buy Tumblr Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Tumblr Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-tumblr-reblogs" title="Buy Tumblr Reblogs" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Tumblr Reblogs</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-vk-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy VK Followers" class="btn btn-page btn-outline-vk group-btn ">
+<div class="justify-center w-100">
+<span class="icon-vk"></span>
+<span class="button-text group-btn-text">VK Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-vk-followers" title="Buy VK Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy VK Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-vk-likes" title="Buy VK Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy VK Likes</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-quora-upvotes" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Quora Upvotes" class="btn btn-page btn-outline-quora group-btn ">
+<div class="justify-center w-100">
+<span class="icon-quora"></span>
+<span class="button-text group-btn-text">Quora Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-quora-followers" title="Buy Quora Question Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Quora Followers</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-quora-upvotes" title="Buy Quora Upvotes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Quora Upvotes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-quora-shares" title="Buy Quora Shares" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Quora Shares</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-quora-views" title="Buy Quora Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Quora Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-quora-profile-followers" title="Buy Quora Profile Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Buy Quora Profile Followers</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-vimeo-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Vimeo Views" class="btn btn-page btn-outline-vimeo group-btn ">
+<div class="justify-center w-100">
+<span class="icon-vimeo"></span>
+<span class="button-text group-btn-text">Vimeo Services</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/buy-vimeo-views" title="Buy Vimeo Views" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Vimeo Views</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-vimeo-likes" title="Buy Vimeo Likes" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Vimeo Likes</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/buy-vimeo-followers" title="Buy Vimeo Followers" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Buy Vimeo Followers</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Instagram Video Downloader" class="btn btn-page btn-outline-tools group-btn ">
+<div class="justify-center w-100">
+<span class="icon-tools"></span>
+<span class="button-text group-btn-text">Free Tools</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="1">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/instagram-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Instagram Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Tools</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="2">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/download-instagram-photos" title="Download Instagram Photos" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Download Instagram Photos</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/download-instagram-stories" title="Download Instagram Stories" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Download Instagram Stories</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-highlights-downloader" title="Instagram Highlights Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Highlights Downloader</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-profile-picture-size" title="Instagram Profile Picture Size" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Profile Picture Size</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-video-downloader" title="Instagram Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Video Downloader</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-story-viewer" title="Instagram Story Viewer" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Instagram Story Viewer</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-follower-count" title="Live Instagram Followers Count" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Follower Count</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/find-instagram-user-id" title="Find Instagram User ID" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Find Instagram User ID</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-audit" title="Instagram Audit" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Audit</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-hashtag-generator" title="Instagram Hashtag Generator" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Hashtag Generator</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-font-generator" title="Instagram Font Generator" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Instagram Font Generator</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-viewer" title="Instagram Viewer" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Instagram Viewer</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-giveaway-picker" title="Instagram Giveaway Picker" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">Instagram Giveaway Picker</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/instagram-reels-video-download" title="Instagram Reels Video Download" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Instagram Reels Video Download</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/facebook-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Facebook Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Facebook Tools</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="2">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/facebook-video-downloader" title="Facebook Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Facebook Video Downloader</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/youtube-tags" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="YouTube Tags Generator" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">YouTube Tools</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="2">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/youtube-tags" title="YouTube Tags Generator" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">YouTube Tags</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/youtube-thumbnail-downloader" title="YouTube Thumbnail Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">YouTube Thumbnail Downloader</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/tiktok-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="TikTok Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">TikTok Tools</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="2">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/tiktok-video-downloader" title="TikTok Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">TikTok Video Downloader</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/find-tiktok-user-id" title="Find TikTok User ID" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Find TikTok User ID</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/tiktok-profile-picture-size" title="TikTok Profile Picture Size" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">TikTok Profile Picture Size</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/twitter-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Twitter Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Twitter Tools</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="2">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/twitter-video-downloader" title="Twitter Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Twitter Video Downloader</span>
+</div>
+</a>
+</div>
+<div class="dropright menu-drop">
+<a href="/twitter-gif-downloader" title="Twitter GIF Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Twitter GIF Downloader</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dropright menu-drop">
+<a href="/other-tools" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Other Tools" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text">Other Tools</span>
+<span class="icon-angle-down sub-group-btn-icon"></span>
+</div>
+</a>
+<div class="group-collapse dropdown-submenu" data-level="2">
+<div class="page-buttons menu-buttons">
+<div class="dropright menu-drop">
+<a href="/whatsapp-link-generator" title="WhatsApp Link Generator" class="btn btn-page btn-outline-submenu group-btn ">
+<div class="justify-center w-100">
+<span class=""></span>
+<span class="button-text group-btn-text" data-status="New">WhatsApp Link Generator</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+        @media  only screen and (max-width: 777px) {
+            .product-page .nav-pills {
+                justify-content: center!important;
+                /* display: block; */
+                display: flex!important;
+                flex-direction: column!important;
+            }
+        }
+
+        .free-trial-or-demo-btn{
+           /* font-size: 1.5rem!important;*/
+            box-sizing: border-box;
+            text-transform: uppercase;
+            display: flex!important;
+            justify-content: center;
+            /*padding: 0!important;*/
+            /*height: 100px;*/
+            align-items: center;
+        }
+        @media (max-width: 990px) {
+            .free-trial-or-demo-btn{
+                padding: 1.3rem;
+            }
+        }
+        @media    only screen and (max-width : 480px) {
+            .bestByProduct{
+
+            }
+            .bestByProduct .card{
+                padding: 0;
+                height: 260px;
+            }
+            .bestByProduct .card-header{
+                font-size: 2.8rem;
+                min-height: auto;
+            }
+        }
+        span.left-box-old-price {
+            font-weight: bolder;
+            position: relative;
+        }
+        span .old-price-container .price-text {
+            font-size: 1.1rem;
+        }
+        span.left-box-old-price:before {
+            content: "";
+            position: absolute;
+            width: 118%;
+            height: 2px;
+            opacity: .8;
+            background-color: #000;
+            transform: translateY(-50%) rotate(-20deg);
+            top: 48%;
+            left: -2px;
+        }
+        .sticky-elements {
+            display: none;
+        }
+
+        .long-content {
+            width: 100%;
+            height: 1200px;
+            background-color: #eee;
+        }
+
+        #go-top {
+            z-index: 99999;
+            position: fixed;
+            display: none;
+            margin-top: 20px;
+            padding: 10px 25px;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #05477D;
+            box-shadow: 0 6px 9px rgba(0, 0, 0, 0.4);
+            border-radius: 30px;
+            user-select: none;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        #go-top i {
+            margin-right: 10px;
+        }
+
+        #cart-summary {
+            z-index: 9999999;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            height: 70px;
+            background-color: #fff;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 15px;
+            flex-wrap: wrap;
+        }
+        #cart-summary .price-area {
+            position: relative;
+        }
+        #cart-summary .price-area::before {
+            content: "";
+            width: 1px;
+            height: 100%;
+            background-color: #F4F5F7;
+            position: absolute;
+            left: 45%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #cart-summary .price-area span {
+            margin: 0 10px;
+        }
+        #cart-summary .price-area span:first-child {
+            margin-left: 0;
+        }
+        #cart-summary .price-area span:last-child {
+            margin-right: 0;
+        }
+        #cart-summary .price-area .sticky-price {
+            color: #42B073;
+            font-weight: 700;
+        }
+        #cart-summary .actions a {
+            margin: 0 4px;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        #cart-summary .actions a:first-child {
+            margin-left: 0;
+        }
+        #cart-summary .actions a:last-child {
+            margin-right: 0;
+        }
+        #cart-summary .actions a.cart {
+            margin-right: 75px;
+            background-color: #42B073;
+            color: #FFF;
+        }
+        #cart-summary .actions a.message {
+            border: 2px solid rgba(5, 71, 125, 0.1019607843);
+        }
+        .btn-discord {
+            background-color: #738ADB;
+            color: #fff;
+        }
+        .btn-discord-bg-color {
+            background-color: #738ADB;
+        }
+        .btn-discord .button-text {
+            color: #fff;
+        }
+        .btn-discord:hover {
+            background-color: #6479c2;
+            color: #fff;
+        }
+        .icon-discord:hover {
+            color: #fff;
+        }
+        @media  only screen and (max-width: 768px) {
+            .sticky-elements {
+                display: block;
+            }
+            .custom-chat-mobile {
+                height: 40px !important;
+            }
+            .custom-chat-mobile .open-chat:after {
+                width: 3.1rem !important;
+                height: 3.1rem !important;
+            }
+            .custom-chat-mobile .open-chat {
+                font-size : 1.8rem !important;
+            }
+            .chat-mobile-header{
+                margin-bottom: 15px !important;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+<div class="product-page">
+<div>
+<div class="space-between menu-selected-container">
+<div class="page-buttons menu-buttons parenpriceBoxt-menu"></div>
+<div class="howToTooltipBtn">
+<button type="button" class="btn icon-question" data-url="https://vimeo.com/548304107" id="howToTooltip" data-toggle="tooltip" data-placement="left" onclick="isJqLoaded('howToPay',['frontend'],[this])" title="Visual Representation"></button>
+</div>
+</div>
+<section class="pt-5 pb-5 text-center ">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="mb-3">Buy Instagram Followers </h3>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
+                    <i class="bi bi-arrow-left-circle-fill" style="font-size:3rem;"></i>
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-bs-slide="next">
+                    <i class="bi bi-arrow-right-circle-fill" style="font-size:3rem;"></i>
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-12 col-md mb-3" style="width:60px;">
+                                    <div class=" card h-100 rounded-5" >
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>10</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div> 
+                                        <div class="card-body">
+                                            
+                                            <b></b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$0.60</div>
+                                        </div>                
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>50</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            50% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$3.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$1.50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>100</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            54% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$6.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$2.75</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>250</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            67% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$15.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$4.95</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>500</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            76% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$30.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$6.95</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>1000</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            78% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$60.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$12.90</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>2500</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            80% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$150.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$29.75</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>5000</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            87% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$300.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$39.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>10000</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            90% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$600.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$59.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>25000</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            93% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$1,500.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$97.50</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>50000</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            93% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$3,000.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$190</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-follower-bg-color rounded-top-5">
+                                            <b>100000</b>
+                                            <div class="h4 my-2">
+                                            Followers
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            93% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$6,000.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$730.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<div class="container warningBottomPages">
+</div>
+<div class="product-features row">
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-search blue" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">What Are High-Quality Followers</strong>
+<p>High-quality Instagram followers are real-looking artificial followers to make your account more visible and more popular to your potential followers at a lower price.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-lightbulb" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">Why Should You Buy High-Quality Followers</strong>
+<p>High-quality Instagram followers will help you to get more followers organically by making your account already popular at a lower price. In this way, people will be more likely to follow your account.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-alarm" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">FAST DELIVERY</strong>
+<p>We start processing your order as soon as you complete the purchase. Your order is completed within the estimated delivery time that we show on the service&#039;s page.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-bar-chart-line" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">NO RISK OF DECREASE</strong>
+<p>The services that you buy will be permanent, and there won&#039;t be any decrease. Otherwise, we guarantee you that we will refill your losses in six months after your purchase.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-shield-lock" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">REFUND GUARANTEE</strong>
+<p>We guarantee a refund for your order if we can&#039;t deliver it within the estimated delivery time (if it is more than three days). For more details, please read our Refund Policy.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-telephone-plus" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">24/7 LIVE SUPPORT</strong>
+<p>We provide 24/7 live customer support. You can contact us anytime via our embedded chat system, WhatsApp, and email address. Our staff is always ready to help you.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-credit-card-2-front" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">SECURE PAYMENT</strong>
+<p>You can pay with your credit card through the most secure and trusted payment systems in the world. You don’t have to register to make your payment.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-lock"  style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">NO PASSWORD IS REQUIRED</strong>
+<p>We never ask your password or any other private information. We recommend you to protect your account and never share your passwords with anyone.</p>
+</a>
+</div>
+<div class="col-md-12 col-lg-6 feature-container">
+<a class="product-feature">
+<i class="bi bi-exclamation-circle" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+<strong class="h3">WARNING</strong>
+<p>In order for your order interactions to be tracked correctly after your purchases, you should not purchase the same products from different sites simultaneously.</p>
+</a>
+</div>
+</div>
+<article class="product-article" id="contentAll">
+<div class="entry-content"><div class="container">
+<div class="pt-md-4 row">
+<div class="col-lg-4 col-md-6 mb-4"><img alt="Buy Instagram Followers" class="text-left lazy" height="420" src="{% static 'blog/img/insta-home/1.jpg' %}" title="Buy Instagram Followers" alt="Buy Instagram Followers"/></noscript></div>
+<div class="col-lg-8 col-md-6 my-auto pl-lg-5">
+<h2>Importance of Buying Instagram Followers</h2>
+<p>No doubt, Instagram is one of the most popular social media platforms in the world. With more than a billion users around the world, it is the most preferred platform. When it first came out, it didn't offer many features more than Snapchat. Yet, in time, Instagram came up with creative ideas and features. That is why Facebook bought Instagram in 2012. Probably they saw the bright future of the app and bought it. Since then, Instagram is rapidly growing with more and more features. </p>
+<p>Anyway, features play a big role in the popularity of Instagram, but one reason is that it is very user-friendly. Instagram developed so much in recent years that people have started to become famous on the app. That is why buying Instagram followers became a thing. </p>
+<p>Just like on other platforms, the quantity of your followers matters on Instagram. Of course, there are many ways to get more followers. Many websites and blogs have explained how to get more followers on the app. Although these ways are not wrong, they are quite challenging and takes time. That is why people consider buying followers would be easier to achieve success. <br />
+ </p>
+</div>
+</div>
+</div>
+<div class="bg-light content-fluit my-5 py-5">
+<div class="container">
+<div class="row">
+<div class="col-md-5 mb-3 mb-md-0 order-md-2 text-center"><img alt="Why Buy Instagram Followers" height="420" src="{% static 'blog/img/insta-home/2.jpg' %}"  data-src="/why-buy-followers.png" class="lazy" width="420" /><noscript><img src="/why-buy-followers.png" title="Why Buy Instagram Followers" alt="Why Buy Instagram Followers"/></noscript></div>
+<div class="col-md-7 my-auto order-md-1 pb-md-4 pr-lg-5 pt-md-5 py-3">
+<h2>Why Should You Buy Instagram Followers?</h2>
+<p>Although social media is something entertaining, it is not just about it anymore. Since Instagram is the most popular platform, it is possible to see various uses of Instagram. You can use it only for entertainment or for business. By business, we mean all kinds. Instagram offers a business profile option, but if your aim is to make money on Instagram, you don't have to have a business profile. Nowadays, being an influencer is very popular on all social media platforms. However, Instagram has a special place when it comes to influencing. </p>
+<p>If you want to grow your account, you can buy followers to give yourself a quick start in your Instagram experience. It is very easy and safe to start this way. So what are the actual advantages of buying followers for Instagram?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 pb-5 pt-3 px-3 px-md-5 text-center"><img alt="Visibility" class="mobile-image lazy" height="200" src="{% static 'blog/img/insta-home/1.png' %}"  data-src="#" width="200" /><noscript><img src="/visibility-icon.png" title="Visibility" alt="Visibility"/></noscript>
+<div class="mt-3 pt-3">
+<div class="h2"><br />
+Gaining Visibility</div>
+When you purchase followers, you will gain visibility on Instagram. This way, you will have a chance to make your posts appear on the explore page and get discovered by many more people. It is definitely a good start for a successful account with many followers. <br />
+ </div>
+</div>
+<div class="col-md-4 pb-5 pt-3 px-3 px-md-5 text-center"><img alt="Trust" class="mobile-image lazy" height="200" src="{% static 'blog/img/insta-home/2.png' %}"  data-src="#" width="200" /><noscript><img src="/trust-icon.png" title="Trust" alt="Trust"/></noscript>
+<div class="mt-3 pt-3">
+<div class="h2"><br />
+Building Trust</div>
+When people visit your profile and see your follower number, they will think that this profile is something worth following. Don't think of it as a fraud. By buying followers, you're taking a shortcut for success. You would get successful eventually, but why wait? Start becoming popular now and boost your account. </div>
+</div>
+<div class="col-md-4 pb-5 pt-3 px-3 px-md-5 text-center"><img alt="Followers" class="mobile-image lazy" height="200" src="{% static 'blog/img/insta-home/3.png' %}"  data-src="#" width="200" /><noscript><img src="/followers-icon.png" title="Followers" alt="Followers"/></noscript>
+<div class="mt-3 pt-3">
+<div class="h2">Key to Organic Followers</div>
+Starting with followers bought from InstaFollowers, you will get a lot of help having organic followers. Just like the snowball effect, your followers will increase according to the number of your current followers. The more you have, the more you get. That is why, if you want to reach as many people as possible, you should buy Instagram followers to access your goal quickly. </div>
+</div>
+</div>
+<div class="bg-light content-fluit my-5 py-5">
+<div class="container">
+<div class="pt-md-4 row">
+<div class="col-lg-4 col-md-6 mb-4"><img alt="How to Buy Followers" class="text-left lazy" height="420" src="{% static 'blog/img/insta-home/3.jpg' %}"  data-src="/how-to-buy-ig-followers.png" width="420" /><noscript><img src="/how-to-buy-ig-followers.png" title="How to Buy Followers" alt="How to Buy Followers"/></noscript></div>
+<div class="col-lg-8 col-md-6 my-auto pl-lg-5">
+<h2>How to Buy Followers?</h2>
+<p>Buying followers for Instagram has never been so easy. It is possible to buy followers without any difficulty. You don't need to fill out any forms or give vital information such as your password etc. You can buy followers easily with our tool. Here are the steps to use it:</p>
+<ol>
+<li>There are two boxes. Enter your Instagram profile name to the first one.</li>
+<li>Then enter the number of followers you want to the other box.</li>
+<li>You will see the estimated delivery time and the price for your followers. </li>
+<li>As the last step, click on 'Buy Now' or 'Add to Cart' to end the process.</li>
+</ol>
+<p><strong>Note:</strong> You should have a public profile in order to receive followers. </p>
+<p>This is it. Your followers will reach you in the estimated time. When you receive your followers, you can start to grow your account immediately.</p>
+<p><iframe title="Iframe" id="lazyIframe" class="lazy" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137510295&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" src="https://www.instafollowers.co/img/logo/instafollowers/if-logo.svg" allowfullscreen="" height="100" width="500"></iframe></p>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-5 mb-3 mb-md-0 order-md-2"><img alt="Why Choose InstaFollowers" height="420" src="{% static 'blog/img/insta-home/4.jpg' %}"  data-src="/why-us.png" class="lazy" width="420" /><noscript><img src="/why-us.png" title="Why Choose InstaFollowers" alt="Why Choose InstaFollowers"/></noscript></div>
+<div class="col-md-7 my-auto order-md-1 pb-md-4 pt-md-5 py-3">
+<h2>Why Choose InstaFollowers?</h2>
+<p>InstaFollowers offers you easy user experience. As we have stated above, it is pretty simple to use our tool to get Instagram followers. Despite offering the simplest tool to buy followers, there are many other reasons you should choose us to get followers:</p>
+<ul>
+<li>We provide a secure environment. We never ask for your password, no matter which product you are buying from us. </li>
+<li>Our system runs upon an SSL certificate. So it is safe to shop from us. Your data cannot be reached by third parties. </li>
+<li>With our 24/7 live support, you are not alone anytime when you are shopping from us. Anything you need, we are one click away.</li>
+<li>We offer reasonable prices compared to our rivals. It is 100% safe and cheap to buy followers from us.</li>
+</ul>
+<p style="text-align:center"><iframe title="Video" id="lazyIframe" class="lazy" data-loader="yt" data-src="1dKDRdzUHBE" src="https://www.instafollowers.co/img/logo/instafollowers/if-logo.svg" allowfullscreen="" height="315" width="560"></iframe></p>
+</div>
+</div>
+</div></div>
+<h2 class="h1 main-headline">Frequently Asked Questions</h2><div class="col-md-8 offset-md-2 text-muted mb-5 text-center">Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee.</div><div class="afterJq "><div class="accordion-container row" id="accordion"><div class="faq-col col-lg-6"><div class="sss"><div id="heading4953"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_4953" aria-expanded="false" aria-controls="collapse_4953"><span class="accordion-title">Will my other interactions increase too when I get followers?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_4953"  class=" accordion-collapse collapse" aria-labelledby="heading4953" data-bs-parent="#accordion"><div class="card-body"><p>Unfortunately no. Our followers are not real people. That is why they are not capable of liking and commenting. </p></div></div></div><div class="sss"><div id="heading4955"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse"  data-bs-target="#collapse_4955" aria-expanded="false" aria-controls="collapse_4955"><span class="accordion-title">What if I don't receive my followers, what should I do?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_4955"  class="accordion-collapse collapse " aria-labelledby="heading4955" data-bs-parent="#accordion"><div class="card-body"><p>If you feel like there's a problem with your purchase you can always get in touch with our 24/7 active Customer Care. They will guide you through the way.</p></div></div></div><div class="sss"><div id="heading9755"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9755" aria-expanded="false" aria-controls="collapse_9755"><span class="accordion-title">Is it safe to buy Instagram followers?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9755"  class="accordion-collapse collapse" aria-labelledby="heading9755" data-bs-parent="#accordion"><div class="card-body"><p>Buying Instagram followers is safe. If you have any questions about safety, you can just ask our 24/7 customer support.</p></div></div></div><div class="sss"><div id="heading9757"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9757" aria-expanded="false" aria-controls="collapse_9757"><span class="accordion-title">Is there any recommended amount?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9757"  class="accordion-collapse collapse" aria-labelledby="heading9757" data-bs-parent="#accordion"><div class="card-body"><p>No, it is totally up to you. You can but followers as many as you want.</p></div></div></div></div><div class="faq-col col-lg-6"><div class="sss"><div id="heading9758"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9758" aria-expanded="false" aria-controls="collapse_9758"><span class="accordion-title">Do I need to have a public profile to receive the followers?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9758"  class="accordion-collapse collapse" aria-labelledby="heading9758" data-bs-parent="#accordion"><div class="card-body"><p>Yes, your account needs to be set to public.</p></div></div></div><div class="sss"><div id="heading9759"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9759" aria-expanded="false" aria-controls="collapse_9759"><span class="accordion-title">How long does it take to get Instagram followers?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9759"  class="accordion-collapse collapse" aria-labelledby="heading9759" data-bs-parent="#accordion"><div class="card-body"><p>You will start to receive your followers after you make the purchase. It doesn't start so late after the purchase but it depends on the amount purchased.</p></div></div></div><div class="sss"><div id="heading9760"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9760" aria-expanded="false" aria-controls="collapse_9760"><span class="accordion-title">What is the difference between regular and real followers?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9760"  class="accordion-collapse collapse" aria-labelledby="heading9760" data-bs-parent="#accordion"><div class="card-body"><p>Regular followers are bots that are high quality. It is almost impossible to tell them apart from the real ones. Real followers are real as you'd expect.</p></div></div></div><div class="sss"><div id="heading9761"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9761" aria-expanded="false" aria-controls="collapse_9761"><span class="accordion-title">What are the payment options to buy followers?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9761"  class="accordion-collapse collapse" aria-labelledby="heading9761" data-bs-parent="#accordion"><div class="card-body"><p>There are many payment options such as: PayPal, Checkout, and PayTR. </p></div></div></div></div></div></div>
+</article>
+<div class="comment-area content-fluit" id="commentArea">
+<div class="container">
+<h2 class="h2 text-center">Comment on your experience</h2>
+<div class="row" vocab="https://schema.org/" typeof="Product">
+<div class="col-md-8 offset-md-2 text-muted mb-5 text-center">
+We care about your ideas and opinions. You can help us improve by evaluating our services and tools provided by our website by filling in our &quot;comment on your experience&quot; section down below.
+</div>
+<div class="col-md-6 mb-5">
+<div class="commentPost" id="commentPost">
+<div class="h2">Leave a Comment</div>
+<form method="post"  >
+    {% csrf_token %}
+<div class="form-group">
+<label class="mb-3" for="commentName">Full Name</label>
+<input type="text" name="full_name" id="commentName" class="form-control">
+</div>
+<div class="form-group">
+<label class="mb-3" for="commentEmail">E-Mail</label>
+<input type="text" name="email" id="commentEmail" class="form-control">
+</div>
+<div class="form-group">
+<label class="mb-3">Rating</label>
+<div class="form-row">
+<div class="col">
+<div class="review-rate">
+<input type="radio" id="star5" class="icon-star-value" name="rate" value="5">
+<label for="star5" title="text">
+<span class="icon-star-half"></span>
+<span class="icon-star"></span>
+</label>
+<input type="radio" id="star4" class="icon-star-value" name="rate" value="4">
+<label for="star4" title="text">
+<span class="icon-star-half"></span>
+<span class="icon-star"></span>
+</label>
+<input type="radio" id="star3" class="icon-star-value" name="rate" value="3">
+<label for="star3" title="text">
+<span class="icon-star-half"></span>
+<span class="icon-star"></span>
+</label>
+<input type="radio" id="star2" class="icon-star-value" name="rate" value="2">
+<label for="star2" title="text">
+<span class="icon-star-half"></span>
+<span class="icon-star"></span>
+</label>
+<input type="radio" id="star1" class="icon-star-value" name="rate" value="1">
+<label for="star1" title="text">
+<span class="icon-star-half"></span>
+<span class="icon-star"></span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="form-group">
+<label class="mb-3" for="commentComment">Comment</label>
+<textarea name="text" id="commentComment" cols="30" rows="5" maxlength="500" class="form-control"></textarea>
+</div>
+<div class="form-group mb-0">
+<button type="submit" id="commentAdd" data-bs-target="12" class="btn btn-primary btn-block py-3 py-md-4" onclick="isJqLoaded('commentAdd',['frontend','global'],this);">Send
+</button>
+</div>
+</div>
+</form>
+<div id="commentPostWarning"></div>
+</div>
+<div class="col-md-6 mb-3" id="commentList">
+<div class="comment-list">
+<div class="commentTotal">
+<div class="rate-result">
+<div class="rate-stars">
+<div class="rate-points">
+<span class="icon-star item-colored"></span>
+<span class="icon-star item-colored"></span>
+<span class="icon-star item-colored"></span>
+<span class="icon-star item-colored"></span>
+<span class="icon-star item-colored"></span>
+</div>
+<div class="rate-value">
+<span>5</span> /
+<span>5</span>
+</div>
+</div>
+<div class="rate-total">
+<b>Total:</b>
+<span>993</span> Rating
+</div>
+</div>
+</div>
+
+{% for comment in comments %}
+<blockquote class="blockquote">
+    <p class="commentMore" property="reviewBody">{{comment.text}}</p>
+    <footer class="bg-transparent mb-3 blockquote-footer" property="name">{{comment.full_name}}</footer>
+   
+</blockquote>
+{% endfor %}
+
+</section>
+</div>
+</main>
+
+{% endblock %}

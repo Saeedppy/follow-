@@ -1,0 +1,24 @@
+{% load static %}
+{% block custome-header %}
+    <link href="{% static 'blog/css/navbar.css' %}" rel="stylesheet" >
+
+{% endblock %}
+
+
+<nav class="navbar navbar-expand-lg  navbar-dark navbar-bg-color ">
+    <div class="container-fluid ml-5">
+      <a class="navbar-brand " href="#">Oman.Sotial</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-md-flex justify-content-md-evenly  "    id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-md-0 ml-lg-5 "  >
+          <a class="nav-link active fs-5 p-3 " aria-current="page" href="{% url 'blog:home' %}">Home</a>
+          <a class="nav-link fs-5 p-3  " href="#">Website Design </a>
+          <a class="nav-link fs-5 p-3" href="buy-instagram-followers">Buy Instagram Followers</a>
+          <a class="nav-link fs-5 p-3" href="buy-instagram-likes">Buy Instagram Likes</a>
+          <a class="nav-link fs-5 p-3" href="buy-instagram-views">Buy Instagram Views</a>
+        </div>
+      </div>
+    </div>
+  </nav>

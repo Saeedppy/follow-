@@ -1,0 +1,379 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#2d74b1" />      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href=" {% static 'blog/css/frontend.css' %} " rel="stylesheet">
+
+        <script>
+                loadeds = [];
+                slideChange = true;
+            </script>
+        <link rel="manifest" href="manifest.json">
+        <script>
+                
+                                    showMoreContent = "Show more";
+                securityCheck = "Security Check";
+                showLessContent = "Show less";
+                noComment = "You have already send a review for this service.";
+                profileTitleOne = "Account";
+                userLogoutTitleOne = "Logout";
+                cartSlug = 'cart';
+                let gtagStatus = false;
+                            gtagStatus = true;
+                                                            registerUrl = 'register';
+                registerTitle = 'Register';
+                loginUrl = 'login';
+                loginTitle = 'Login';
+                            profileHrefOne = 'https://www.instafollowers.co/account';
+                userLogoutOne = 'https://www.instafollowers.co/logout-user';
+                CartControlCookie = 'https://www.instafollowers.co/cartControl';
+                commentPost = 'https://www.instafollowers.co/commentPost';
+                commentMorePost = 'https://www.instafollowers.co/commentMore';
+                discountCouponPostUrl = 'https://www.instafollowers.co/discountCoupon';
+                createNewCsrfToken = 'https://www.instafollowers.co/csrfToken';
+                cartControlAjax = true;
+        
+                function isJqLoaded(functionName, isLoadeds = null, args = null, continuity = null) {
+                    var others = false;
+                    
+                    if (isLoadeds === null) {
+                        others = true;
+                    } else {
+                        if (typeof isLoadeds === "string") {
+                            var array = [];
+                            array.push(isLoadeds);
+                            isLoadeds = array;
+                        } else if (isLoadeds instanceof Array) {
+                            others = true;
+                            isLoadeds.forEach(function (element) {
+                                if (typeof loadeds[element] == "undefined" || loadeds[element] !== true) {
+                                    others = false;
+                                }
+                            });
+                        }
+                    }
+                    
+                    var amount = 100;
+                    if (typeof isJqLoadedRepeat === "undefined") {
+                        isJqLoadedRepeat = amount;
+                    }
+                    if (typeof jQuery === 'function' && others === true) {
+                        
+                        $('.loading-item').removeClass('loading-item');
+                        if (args != null) {
+                            window[functionName](args);
+                        } else {
+                            if (typeof window[functionName] != "undefined") {
+                                window[functionName]();
+                            } else {
+                                isJqLoaded(functionName, isLoadeds, args, continuity);
+                            }
+                        }
+                    } else {
+                        
+                        if (typeof jqLoadedWorked === "undefined") {
+                            jqLoadedWorked = [];
+                        }
+                        jqLoadedWorkedIndex = jqLoadedWorked.indexOf(functionName);
+                        if (continuity === true || jqLoadedWorkedIndex < 0) {
+                            jqLoadedWorked.push(functionName);
+                            setTimeout(function () {
+                                isJqLoaded(functionName, isLoadeds, args, true);
+                            }, isJqLoadedRepeat);
+                        }
+                    }
+                    
+                        isJqLoadedRepeat = isJqLoadedRepeat + amount;
+                    return false;
+                }
+        
+                dataLayerFunction = {
+                    aInternal: 10,
+                    aListener: function (val) {
+                    },
+                    set dataLayer(val) {
+                        this.aInternal = val;
+                        this.aListener(val);
+                    },
+                    get dataLayer() {
+                        return this.aInternal;
+                    },
+                    registerListener: function (listener) {
+                        this.aListener = listener;
+                    }
+                };
+                dataLayerFunction.dataLayer = false;
+                
+                const instagramApiUseControl = 0;
+                                            var meta = document.createElement('meta');
+        meta.setAttribute('name', 'p:domain_verify');
+        meta.setAttribute('content', '6ec86aecbb91c798cee4e2ffcdaf1488');
+        document.head.appendChild(meta);
+                                </script>
+        <style id="pageCss">
+                
+            </style>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebPage","@id":"https:\/\/www.instafollowers.co\/#webpage","url":"https:\/\/www.instafollowers.co\/","inLanguage":"en-US","name":"Buy Instagram Followers - %100 Real, Instant | Only $0.59","dateCreated":"2018-03-21T14:07:05+03:00","dateModified":"2023-02-02T15:01:34+03:00","description":"Buy Instagram followers from Instafollowers for as little as $0.59. Instant delivery, real followers, and friendly 24\/7 customer support. Try us out!","isPartOf":{"@type":"WebSite","@id":"https:\/\/www.instafollowers.co\/#website","url":"https:\/\/www.instafollowers.co\/","name":"Instafollowers","publisher":{"@type":"Organization","@id":"https:\/\/www.instafollowers.co\/#organization","name":"Instafollowers","url":"https:\/\/www.instafollowers.co\/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https:\/\/www.instafollowers.co\/#logo","url":"logo\/instafollowers\/if-logo.svg","caption":"Buy Instagram Followers - %100 Real, Instant | Only $0.59"},"image":{"@type":"ImageObject","@id":"https:\/\/www.instafollowers.co\/#logo","url":"logo\/instafollowers\/if-logo.svg","caption":"Buy Instagram Followers - %100 Real, Instant | Only $0.59"}}},"primaryImageOfPage":{"@type":"ImageObject","@id":"https:\/\/www.instafollowers.co\/#primaryimage","url":"https:\/\/www.instafollowers.co\/img\/uploads\/instagram-followers.png","caption":"Buy Instagram Followers - %100 Real, Instant | Only $0.59"}}</script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"CreativeWorkSeason","name":"Buy Instagram Followers - %100 Real, Instant | Only $0.59","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":993,"bestRating":5,"worstRating":1}}</script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"FAQPage","mainEntity":[[{"@type":"Question","name":"Does Instagram ban brands for buying followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Obviously, this is not true. Instagram cannot remove followers or ban you because you have followers."}},{"@type":"Question","name":"Is it safe to buy Instagram followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Yes, as we have stated in the article, we provide a secure environment. We never ask for vital information, and our system is protected by an SSL certificate. "}},{"@type":"Question","name":"How many Instagram followers should I buy?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"This is definitely up to you. You can get as many as you want, you don't have to buy them all at once."}},{"@type":"Question","name":"Is it common to buy followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"It is pretty common because if you buy followers, you will reach your goal in a short time. That is why many personal and business profiles prefer to buy followers."}},{"@type":"Question","name":"Why should you buy Instagram followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Buying Instagram followers help you get quicker results. It also helps you get more organic followers since your follower number will be a reference for your project or business development."}},{"@type":"Question","name":"Is it legal to buy Instagram followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Technically, it is not illegal to buy followers. "}},{"@type":"Question","name":"Do hashtags on Instagram get followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Hashtags are a great way to expand your social reach. If you have many followers, your posts can be seen on the Explore page by using appropriate hashtags."}},{"@type":"Question","name":"Will my followers disappear or decrease in time?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"The number of your followers will not decrease and it is guaranteed. We give our promise that we will recompensate all possible decreases for 6 months after the purchase."}},{"@type":"Question","name":"How long will it take for me to receive my followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"That depends on stock conditions and how many followers you wish to get. While typing in the number you want to receive, you will see the estimated time beside it."}},{"@type":"Question","name":"Can I get banned for buying followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Absolutely not. It's not different than asking for a friend to follow your account. No one of our customers came to us with a complaint regarding their account's status on Instagram."}},{"@type":"Question","name":"Can I get a refund if I don't get satisfied with the service?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Refunds are possible only when we fail to deliver our promises within the given time. If the estimated time is shorter than three days, this time period will be extended to three working days."}},{"@type":"Question","name":"Instagram is removing like counts, is it the same for followers?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"No. There's no public announcement regarding that. Hence, we don't expect the following count to get removed any time soon. Your followers will be visible."}},{"@type":"Question","name":"Why should I make my account public for the purchase?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Instagram doesn't let anyone outside of the permitted users see a hidden profile. Therefore, you may understand why we need to have access. You can make your account hidden afterward, though."}},{"@type":"Question","name":"Is having many followers on my profile help to attract organic engagement?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Yes! When you have many real and active followers on your profile, it appears like you're a local celebrity, and people notice that. For this reason, a user who has many followers that are legit will attract the attention of potential organic followers.\r\n "}},{"@type":"Question","name":"Why am I going to pay for bot followers, though?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"When you use our services, you pay for no fake Instagram followers! IG followers on our packages are high quality and real accounts are included.\r\n "}},{"@type":"Question","name":"How the followers I bought going to help my account?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"When you're paying for our services, you are guaranteed to receive targeted, real and active followers who will contribute to your visibility and make your payment worth it. Consider us the best place to buy Instagram followers."}}]]}</script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"ItemList","itemListElement":[[{"@type":"VideoObject","name":"Buy Instagram Followers - %100 Real, Instant | Only $0.59","url":"https:\/\/www.instafollowers.co\/?v=1","description":"Buy Instagram Followers - %100 Real, Instant | Only $0.59","thumbnailUrl":"https:\/\/www.instafollowers.co\/img\/uploads\/instagram-followers.png","uploadDate":"2023-02-02T15:01:34+03:00","position":1,"contentUrl":"https:\/\/www.youtube.com\/watch?v=1dKDRdzUHBE"}]]}</script>
+        <style>
+                @media (max-width: 550px) {
+                    #top-warning{
+                        flex-wrap: inherit!important;
+                        background: none;
+                    }
+                    #top-warning a {
+                        background: #FFF;
+                        color: #333 !important;
+                        padding: 0;
+                        background: url("/img/topbanner/arrow.png");
+                    }
+                    .top_banner_mobile_icon{
+                        display: block!important;
+                    }
+                    #top-warning .mobile_banner_text{
+                        display: block;
+                    }
+                    #top-warning .desktop_banner_text, #top-warning .button_description_banner{
+                        display: none;
+                    }
+                }
+            </style>
+          
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        {% block custome-header %}
+
+        {% endblock %}
+    </head>
+    <body>
+        {% include 'blog/navbar.html' %}
+
+        {% block content %}
+
+        {% endblock %}
+
+        
+        <footer class="footer">
+            <div class="container">
+            <div class="row">
+            <nav class="navbar footer-navbar">
+            <div class="footer-about col-lg-4">
+            <a href="/" title="InstaFollowers" class="footer-logo">
+            <img src="#" alt="InstaFollowers">
+            </a>
+            <div class="copyright">
+            <p><a href="/" title="buy Instagram followers">Instafollowers.co</a> is a corporate and trusted website that provides services to improve your account on Social Media platforms like Instagram, Twitter, Facebook, TikTok, YouTube and provides professional SEO services to websites. Copyright © 2023 InstaFollowers. All Rights Reserved.</p> <p class="pt-3"> <img class="w-100 mx-auto mx-md-0 lazy" src="{% static 'blog/img/insta-follower/14.png' %}" data-src="https://www.instafollowers.co/img/uploads/payment-methods.png?v=1673624893" alt="Instafollowers.co PayPal" style="max-width: 20rem;" width="360" height="160"><noscript><img src="https://www.instafollowers.co/img/uploads/payment-methods.png?v=1673624893" title="Instafollowers.co PayPal" alt="Instafollowers.co PayPal"/></noscript></p>
+            </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="footer-center">
+            <div class="h4">
+            Services
+            </div>
+            <ul class="navbar-nav footer-menu footer-list menu">
+            <li class="nav-item">
+            <a href="buy-instagram-followers" title="Buy Instagram Followers" class="btn btn-primary ">Buy Instagram Followers</a>
+            </li>
+            <li class="nav-item">
+            <a href="buy-instagram-likes" title="Buy Instagram Likes" class="btn btn-primary ">Buy Instagram Likes</a>
+            </li>
+            <li class="nav-item">
+            <a href="buy-instagram-comments" title="Buy Instagram Comments" class="btn btn-primary ">Buy Instagram Comments</a>
+            </li>
+            <li class="nav-item">
+            <a href="buy-real-twitter-followers" title="Buy Twitter Followers" class="btn btn-primary ">Buy Twitter Followers</a>
+            </li>
+            <li class="nav-item">
+            <a href="buy-instagram-reels-views" title="Buy Instagram Reels Views" class="btn btn-primary ">Buy Instagram Reels Views</a>
+            </li>
+            <li class="nav-item">
+            <a href="automatic-instagram-likes" title="Automatic Instagram Likes" class="btn btn-primary ">Automatic Instagram Likes</a>
+            </li>
+            <li class="nav-item">
+            <a href="buy-real-tiktok-likes" title="Buy TikTok Likes" class="btn btn-primary ">Buy TikTok Likes</a>
+            </li>
+            <li class="nav-item">
+            <a href="get-free-instagram-likes" title="Free Instagram Likes" class="btn btn-primary ">Free Instagram Likes</a>
+            </li>
+            <li class="nav-item">
+            <a href="instagram-profile-picture-size" title="Instagram Profile Picture Size" class="btn btn-primary ">Instagram Profile Picture Size</a>
+            </li>
+            <li class="nav-item">
+            <a href="instagram-video-downloader" title="Instagram Video Downloader" class="btn btn-primary ">Instagram Video Downloader</a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="">
+            <div class="h4">
+            Pages
+            </div>
+            <ul class="navbar-nav footer-menu footer-list menu">
+             <li class="nav-item">
+            <a href="sitemap" title="Instafollowers Sitemap - All Pages" class="btn btn-primary ">Instafollowers Sitemap - All Pages</a>
+            </li>
+            <li class="nav-item">
+            <a href="payment-details" title="Payment Details  - %100 Safe and Fast | Instafollowers" class="btn btn-primary ">Payment Details</a>
+            </li>
+            <li class="nav-item">
+            <a href="about-us" title="Who Is Instafollowers? - About The Instafollowers.co" class="btn btn-primary ">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a href="terms-of-service" title="Terms of Service" class="btn btn-primary ">Terms of Service</a>
+            </li>
+            <li class="nav-item">
+            <a href="services" title="InstaFollowers Social Media Services" class="btn btn-primary ">Social Media Services</a>
+            </li>
+            <li class="nav-item">
+            <a href="social-media-pricing" title="Social Media Service Prices - Instafollowers.co" class="btn btn-primary ">Prices</a>
+            </li>
+            <li class="nav-item">
+            <a href="frequently-asked-questions" title="Frequently Asked Questions - Instafollowers.co" class="btn btn-primary ">FAQ</a>
+            </li>
+            <li class="nav-item">
+            <a href="blog/" title="Instagram Blog" class="btn btn-primary ">Instagram Blog</a>
+            </li>
+            <li class="nav-item">
+            <a href="blog/authors" title="Our Team" class="btn btn-primary ">Our Team</a>
+            </li>
+            <li class="nav-item">
+            <a href="free-instagram-followers" title="Free Instagram Followers" class="btn btn-primary ">Free Instagram Followers</a>
+            </li>
+            <li class="nav-item">
+            <a href="reviews" title="Reviews" class="btn btn-primary ">Reviews</a>
+            </li>
+            <li class="nav-item">
+            <a href="how-it-works" title="How It Works" class="btn btn-primary ">How It Works</a>
+            </li>
+            <li class="nav-item">
+            <a href="news-press" title="News &amp; Press" class="btn btn-primary ">News &amp; Press</a>
+            </li>
+            <li class="nav-item">
+            <a href="instagram-font-generator" title="Instagram Font Generator" class="btn btn-primary ">Instagram Font Generator</a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            </nav>
+            </div>
+            </div>
+            <div class="container-fluid">
+            <div class="row developer">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </footer>
+            <script>
+                                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMDT88H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                        </script>
+            <script>
+                document.querySelectorAll('.hrefDisabled *').forEach(element => {
+                    element.addEventListener("click", function (e) {
+                        if (document.querySelector('.hrefDisabled')) {
+                            e.preventDefault();
+                        }
+                    });
+                });
+            </script>
+           
+            <script async="" src="{% static 'blog/js/vendor.js?id=ba2406e553d20d878835' %}"></script>
+            <script async="" src="{% static 'blog/js/frontend.js?v=1685610843' %}"></script>
+            <script async="" src="{% static 'blog/js/global/global.js?v=1685373663' %}"></script>
+            <script>
+                    // document.addEventListener('DOMContentLoaded', () => {
+                    //     const goTop = document.querySelector('#go-top');
+                    //     document.addEventListener('scroll', () => {
+                    //         if (window.scrollY > 100) {
+                    //             goTop.style.display = 'block';
+                    //         } else {
+                    //             goTop.style.display = 'none';
+                    //         }
+                    //     });
+                    //     goTop.addEventListener('click', goToTop);
+                    // });
+                    //
+                    // function goToTop() {
+                    //     window.scrollTo({top: 0, behavior: "smooth"});
+                    // }
+                    function promotionsCookie() {
+                        Cookies.set('showpromotions', 'disabled', {expires: 15, path: '/', domain: '.' + getDomain()});
+                        triggerSelect();
+                    }
+            
+                    function getDomain() {
+                        return window.location.hostname.replace(/([a-z]+.)/, "");
+                    }
+            
+                    function triggerSelect() {
+                        var select = document.getElementById("1");
+                        var event = new Event('change');
+                        select.dispatchEvent(event);
+                    }
+            
+                    isJqLoaded("promotionsCookie", 'global');
+                </script>
+            <script>
+                isJqLoaded("runAtAllPages", ['frontend', 'global'], null, true);
+                isJqLoaded('slickCarousel', ['frontend', 'global', 'vendor']);
+                </script>
+            <script defer="" src="{% static 'blog/js/scripts.js?v=1685373663' %}"></script>
+            <script>
+                var res = document.createElement("link");
+                res.rel = "stylesheet";
+                res.as = "style";
+                res.href = "{% static 'blog/css/fonts.css?id=3552552eb130b802844f' %}";
+                document.body.appendChild(res);
+            </script><link rel="stylesheet" as="style" href="{% static 'blog/css/fonts.css?id=3552552eb130b802844f' %}">
+            <script>
+                function getCookie(cname) {
+                    if (!document.cookie) {
+                        return null;
+                    }
+                    else {
+                        let name = cname + "=";
+                        let decodedCookie = decodeURIComponent(document.cookie);
+                        let ca = decodedCookie.split(';');
+                        for(let i = 0; i <ca.length; i++) {
+                            let c = ca[i];
+                            while (c.charAt(0) == ' ') {
+                                c = c.substring(1);
+                            }
+                            if (c.indexOf(name) == 0) {
+                                return c.substring(name.length, c.length);
+                            }
+                        }
+                        return null;
+                    }
+                }
+            
+                function ajaxSetupCsrf(){
+                    $.ajaxSetup({
+                        headers: {
+                            'X-CSRF-TOKEN': getCookie('csrf_token')
+                        }
+                    });
+                }
+            
+                isJqLoaded('ajaxSetupCsrf');
+            </script>
+            
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+    </body>
+</html>

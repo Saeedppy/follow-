@@ -1,0 +1,2203 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block custome-header %}
+
+{% endblock %}
+
+{% block content %}
+
+<body>
+    <noscript>Your browser does not support JavaScript or this feature is turned off.</noscript>
+    <header>
+    
+
+    <div class="container-fluid breadcrumb-container">
+    <div class="container">
+    <ol class="breadcrumb breadCrumbList" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" class="breadcrumb-item" itemscope itemtype="http://schema.org/ListItem">
+    <a itemprop="item" typeof="WebPage" href="/" title="InstaFollowers"><span class="icon-home"></span><span itemprop="name" class="d-none">InstaFollowers</span></a>
+    <meta itemprop="position" content="1">
+    </li>
+    <li itemprop="itemListElement" class="breadcrumb-item" itemscope itemtype="http://schema.org/ListItem">
+    <a itemprop="item" typeof="WebPage" title="Buy Instagram Views" href="buy-instagram-views">
+    <span itemprop="name">Buy Instagram Views</span>
+    </a>
+    <meta itemprop="position" content="2">
+    </li>
+    </ol>
+    </div>
+    </div>
+    </header>
+    <main>
+    <div class="container">
+    <section class="page">
+    <div class="row">
+    <div class="col-md-12 buttons-container">
+    <div class="page-buttons menu-buttons">
+    <div class="dropdown menu-drop">
+    <div title="Instagram" class="btn btn-page btn-instagram-gradient group-btn text-white selected" id="instagram" onclick="isJqLoaded('menuClick', ['frontend'], this)" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)">
+    <div class="d-lg-block justify-center">
+    <span class="icon-instagram group-btn-icon"></span>
+    <span class="button-text group-btn-text">Instagram</span>
+    </div>
+    </div>
+    <div class="dropdown-menu group-collapse">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-likes" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Likes with Instant Delivery" class="btn btn-page btn-outline-like group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-like"></span>
+    <span class="button-text group-btn-text">Buy Instagram Likes</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-likes" title="Buy Instagram Likes with Instant Delivery" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/automatic-instagram-likes" title="Buy Automatic Instagram Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Automatic Instagram Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-monthly-instagram-likes" title="Buy Instagram Monthly Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Monthly Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/get-free-instagram-likes" title="Get Free Instagram Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free Instagram Likes</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-followers" title="Buy Instagram Followers" class="btn btn-page btn-outline-follower group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-follower"></span>
+    <span class="button-text group-btn-text">Buy Instagram Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Views" class="btn btn-page btn-outline-view group-btn selected ">
+    <div class="justify-center w-100">
+    <span class="icon-video"></span>
+    <span class="button-text group-btn-text">Buy Instagram Views</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-views" title="Buy Instagram Views" class="btn btn-page btn-outline-submenu group-btn menu-selected ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-automatic-instagram-views" title="Buy Automatic Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Automatic Instagram Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-instagram-views" title="Free Instagram Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free Instagram Views</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-comments" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Comments" class="btn btn-page btn-outline-comment group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-comment"></span>
+    <span class="button-text group-btn-text">Buy Instagram Comments</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-comments" title="Buy Instagram Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Comments</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-automatic-instagram-comments" title="Buy Automatic Instagram Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Automatic Instagram Comments</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-comment-likes" title="Buy Instagram Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Comment Likes</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-reels-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Reels Views" class="btn btn-page btn-outline-reels group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-reels"></span>
+    <span class="button-text group-btn-text">Instagram Reels</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-reels-views" title="Buy Instagram Reels Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Reels Video Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-reels-likes" title="Buy Instagram Reels Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Reels Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-reels-comments" title="Buy Instagram Reels Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Reels Comments</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-real-instagram-story-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Instagram Story Views" class="btn btn-page btn-outline-instagram-other group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-instagram-other"></span>
+    <span class="button-text group-btn-text">Instagram Others</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-live-video-views" title="Buy Instagram Live Video Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Live Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-profile-visits" title="Buy Instagram Profile Visits" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Profile Visits</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-saves" title="Buy Instagram Saves" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Saves</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-instagram-impressions" title="Buy Instagram Impressions, Reach" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Impressions, Reach</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-real-instagram-story-views" title="Buy Instagram Story Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Instagram Story Views</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropdown menu-drop">
+    <a href="/buy-backlinks" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Backlinks" class="btn btn-page btn-rocket group-btn ">
+    <div class="justify-center w-100 d-lg-block">
+    <span class="icon-rocket"></span>
+    <span class="button-text group-btn-text">Buy Backlinks</span>
+    <span class="sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-menu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-backlinks" title="Buy Backlinks" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Backlinks</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-seo-services-packages" title="Buy SEO Packages & SEO Services" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">SEO Services &amp; Packages</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/seo-consulting" title="SEO Consulting Services" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy SEO Consulting</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/seo-report" title="Buy SEO Report Services" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy SEO Report</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/on-page-seo-services" title="On-Page SEO Services" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy On-Page SEO Services</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/web-acceleration" title="Buy Web Acceleration" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Web Acceleration</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/backlink-analysis" title="Backlink Analysis" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Backlink Analysis</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropdown menu-drop">
+    <a href="/buy-tiktok-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy TikTok Followers" class="btn btn-page btn-tiktok group-btn ">
+    <div class="justify-center w-100 d-lg-block">
+    <span class="icon-tiktok"></span>
+    <span class="button-text group-btn-text">TikTok Services</span>
+    <span class="sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-menu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-tiktok-followers" title="Buy TikTok Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy TikTok Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-real-tiktok-likes" title="Buy TikTok Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy TikTok Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-automatic-tiktok-likes" title="Buy Automatic TikTok Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Automatic TikTok Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tiktok-views" title="Buy TikTok Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">TikTok Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-automatic-tiktok-views" title="Buy Automatic TikTok Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Automatic TikTok Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tiktok-shares" title="Buy TikTok Shares" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">TikTok Shares</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tiktok-comments" title="Buy TikTok Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">TikTok Comments</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tiktok-live-views" title="Buy TikTok Live Video Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">TikTok Live Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tiktok-comment-likes" title="Buy TikTok Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">TikTok Comment Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tiktok-saves" title="Buy TikTok Saves" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy TikTok Saves</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-tiktok-fans" title="Free TikTok Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free TikTok Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-tiktok-likes" title="Free TikTok Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free TikTok Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-tiktok-views" title="Free TikTok Video Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free TikTok Video Views</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropdown menu-drop">
+    <a href="/buy-facebook-likes" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Facebook Likes (Post)" class="btn btn-page btn-facebook group-btn ">
+    <div class="justify-center w-100 d-lg-block">
+    <span class="icon-facebook"></span>
+    <span class="button-text group-btn-text">Facebook Services</span>
+    <span class="sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-menu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-likes" title="Buy Facebook Likes (Post)" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Facebook Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-page-likes" title="Buy Facebook Page Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Facebook Page Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-views" title="Buy Facebook Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Facebook Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-followers" title="Buy Facebook Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Facebook Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-5-star-ratings" title="Buy Facebook 5 Star Ratings" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Facebook 5 Star Ratings</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-comments" title="Buy Facebook Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Facebook Comments</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-comment-likes" title="Buy Facebook Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Facebook Comment Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-shares" title="Buy Facebook Shares" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Facebook Shares</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-facebook-live-viewers" title="Buy Facebook Live Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Facebook Live Viewers</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropdown menu-drop">
+    <a href="/buy-real-twitter-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Twitter Followers" class="btn btn-page btn-twitter group-btn ">
+    <div class="justify-center w-100 d-lg-block">
+    <span class="icon-twitter"></span>
+    <span class="button-text group-btn-text">Twitter Services</span>
+    <span class="sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-menu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-real-twitter-followers" title="Buy Twitter Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitter Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitter-retweets" title="Buy Twitter Retweets" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitter Retweets</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitter-likes" title="Buy Twitter Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitter Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitter-space-listeners" title="Buy Twitter Space Listeners" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Twitter Space Listeners</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitter-poll-votes" title="Buy Twitter Poll Votes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitter Poll Votes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitter-impressions" title="Buy Twitter Impressions" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitter Impressions</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitter-views" title="Buy Twitter Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitter Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitter-clicks" title="Buy Twitter Clicks" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitter Clicks</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-twitter-video-views" title="Free Twitter Video Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Free Twitter Video Views</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropdown menu-drop">
+    <div title="Other" class="btn btn-page btn-more-gradient group-btn text-white" id="more" onclick="isJqLoaded('menuClick', ['frontend'], this)" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)">
+    <div class="d-lg-block justify-center">
+    <span class="icon-more-vertical group-btn-icon"></span>
+    <span class="button-text group-btn-text">Other</span>
+    </div>
+    </div>
+    <div class="dropdown-menu group-collapse">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-subscribers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy YouTube Subscribers" class="btn btn-page btn-outline-youtube group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-youtube"></span>
+    <span class="button-text group-btn-text">YouTube Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-subscribers" title="Buy YouTube Subscribers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Subscribers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-views" title="Buy YouTube Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-likes" title="Buy YouTube Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-live-views" title="Buy YouTube Live Stream Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy YouTube Live Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-dislikes" title="Buy YouTube Dislikes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Dislikes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-comments" title="Buy YouTube Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Comments</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-comment-likes" title="Buy YouTube Comment Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">YouTube Comment Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-shares" title="Buy YouTube Shares" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Shares</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-4000-hours-youtube-watch-time-for-monetization" title="Buy YouTube Watch Hours" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Watch Hours</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-youtube-likes" title="Free YouTube Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free YouTube Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-youtube-views" title="Free YouTube Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free YouTube Views</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-discord-members" title="Buy Discord Members" class="btn btn-page btn-outline-discord group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-discord"></span>
+    <span class="button-text group-btn-text">Buy Discord Members</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-spotify-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Spotify Followers" class="btn btn-page btn-outline-spotify group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-spotify"></span>
+    <span class="button-text group-btn-text">Spotify Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-spotify-followers" title="Buy Spotify Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Spotify Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-spotify-plays" title="Buy Spotify Plays" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Spotify Plays</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-spotify-monthly-listeners" title="Buy Spotify Monthly Listeners" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Spotify Monthly Listeners</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-spotify-playlist-followers" title="Buy Spotify Playlist Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Spotify Playlist Followers</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-shorts-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy YouTube Shorts Views" class="btn btn-page btn-outline-youtube group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-youtube-shorts"></span>
+    <span class="button-text group-btn-text">YouTube Shorts</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-shorts-likes" title="Buy YouTube Shorts Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Shorts Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-shorts-views" title="Buy YouTube Shorts Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Shorts Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-youtube-shorts-comments" title="Buy YouTube Shorts Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy YouTube Shorts Comments</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitch-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Twitch Followers" class="btn btn-page btn-outline-twitch group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-twitch"></span>
+    <span class="button-text group-btn-text">Twitch Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-twitch-followers" title="Buy Twitch Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitch Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitch-viewers" title="Buy Twitch Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitch Viewers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitch-clip-views" title="Buy Twitch Clip Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitch Clip Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-twitch-live-stream-views" title="Buy Twitch Live Viewers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Twitch Live Viewers</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-pinterest-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Pinterest Followers" class="btn btn-page btn-outline-pinterest group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-pinterest"></span>
+    <span class="button-text group-btn-text">Pinterest Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-pinterest-followers" title="Buy Pinterest Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Pinterest Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-pinterest-repins" title="Buy Pinterest Repins" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Pinterest Repins</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-pinterest-board-followers" title="Buy Pinterest Board Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Pinterest Board Followers</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-linkedin-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy LinkedIn Followers" class="btn btn-page btn-outline-linkedin group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-linkedin"></span>
+    <span class="button-text group-btn-text">LinkedIn Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-linkedin-followers" title="Buy LinkedIn Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy LinkedIn Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-linkedin-page-followers" title="Buy LinkedIn Page Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy LinkedIn Page Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-linkedin-likes" title="Buy LinkedIn Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy LinkedIn Likes</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-telegram-members" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Telegram Group Members" class="btn btn-page btn-outline-telegram group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-telegram"></span>
+    <span class="button-text group-btn-text">Telegram Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-telegram-members" title="Buy Telegram Group Members" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Telegram Group Members</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-telegram-post-views" title="Buy Telegram Post Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Telegram Post Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-telegram-reactions" title="Buy Telegram Reactions" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Telegram Reactions</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/upvotes" title="Reddit Upvotes with Instant Delivery" class="btn btn-page btn-outline-reddit group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-reddit"></span>
+    <span class="button-text group-btn-text" data-status="New">Reddit Upvotes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-soundcloud-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy SoundCloud Followers" class="btn btn-page btn-outline-soundcloud group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-soundcloud"></span>
+    <span class="button-text group-btn-text">SoundCloud Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-soundcloud-followers" title="Buy SoundCloud Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy SoundCloud Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-soundcloud-likes" title="Buy SoundCloud Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy SoundCloud Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-soundcloud-comments" title="Buy SoundCloud Comments" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy SoundCloud Comments</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-soundcloud-reposts" title="Buy SoundCloud Reposts" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy SoundCloud Reposts</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-soundcloud-plays" title="Buy SoundCloud Plays" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy SoundCloud Plays</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/free-soundcloud-plays" title="Free SoundCloud Plays" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Free SoundCloud Plays</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tumblr-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Tumblr Followers" class="btn btn-page btn-outline-tumblr group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-tumblr"></span>
+    <span class="button-text group-btn-text">Tumblr Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-tumblr-followers" title="Buy Tumblr Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Tumblr Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tumblr-likes" title="Buy Tumblr Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Tumblr Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-tumblr-reblogs" title="Buy Tumblr Reblogs" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Tumblr Reblogs</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-vk-followers" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy VK Followers" class="btn btn-page btn-outline-vk group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-vk"></span>
+    <span class="button-text group-btn-text">VK Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-vk-followers" title="Buy VK Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy VK Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-vk-likes" title="Buy VK Likes" class="btn btn-page btn-outline-submenu group-btn ">
+     <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy VK Likes</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-quora-upvotes" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Quora Upvotes" class="btn btn-page btn-outline-quora group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-quora"></span>
+    <span class="button-text group-btn-text">Quora Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-quora-followers" title="Buy Quora Question Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Quora Followers</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-quora-upvotes" title="Buy Quora Upvotes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Quora Upvotes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-quora-shares" title="Buy Quora Shares" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Quora Shares</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-quora-views" title="Buy Quora Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Quora Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-quora-profile-followers" title="Buy Quora Profile Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Buy Quora Profile Followers</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-vimeo-views" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Buy Vimeo Views" class="btn btn-page btn-outline-vimeo group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-vimeo"></span>
+    <span class="button-text group-btn-text">Vimeo Services</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/buy-vimeo-views" title="Buy Vimeo Views" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Vimeo Views</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-vimeo-likes" title="Buy Vimeo Likes" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Vimeo Likes</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/buy-vimeo-followers" title="Buy Vimeo Followers" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Buy Vimeo Followers</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Instagram Video Downloader" class="btn btn-page btn-outline-tools group-btn ">
+    <div class="justify-center w-100">
+    <span class="icon-tools"></span>
+    <span class="button-text group-btn-text">Free Tools</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="1">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/instagram-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Instagram Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Tools</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="2">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/download-instagram-photos" title="Download Instagram Photos" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Download Instagram Photos</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/download-instagram-stories" title="Download Instagram Stories" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Download Instagram Stories</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-highlights-downloader" title="Instagram Highlights Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Highlights Downloader</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-profile-picture-size" title="Instagram Profile Picture Size" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Profile Picture Size</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-video-downloader" title="Instagram Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Video Downloader</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-story-viewer" title="Instagram Story Viewer" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Instagram Story Viewer</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-follower-count" title="Live Instagram Followers Count" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Follower Count</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/find-instagram-user-id" title="Find Instagram User ID" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Find Instagram User ID</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-audit" title="Instagram Audit" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Audit</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-hashtag-generator" title="Instagram Hashtag Generator" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Hashtag Generator</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-font-generator" title="Instagram Font Generator" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Instagram Font Generator</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-viewer" title="Instagram Viewer" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Instagram Viewer</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-giveaway-picker" title="Instagram Giveaway Picker" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">Instagram Giveaway Picker</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/instagram-reels-video-download" title="Instagram Reels Video Download" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Instagram Reels Video Download</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/facebook-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Facebook Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Facebook Tools</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="2">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/facebook-video-downloader" title="Facebook Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Facebook Video Downloader</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/youtube-tags" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="YouTube Tags Generator" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">YouTube Tools</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="2">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/youtube-tags" title="YouTube Tags Generator" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">YouTube Tags</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/youtube-thumbnail-downloader" title="YouTube Thumbnail Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">YouTube Thumbnail Downloader</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/tiktok-video-downloader" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="TikTok Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">TikTok Tools</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="2">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/tiktok-video-downloader" title="TikTok Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">TikTok Video Downloader</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/find-tiktok-user-id" title="Find TikTok User ID" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Find TikTok User ID</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/tiktok-profile-picture-size" title="TikTok Profile Picture Size" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">TikTok Profile Picture Size</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/other-tools" onmouseover="isJqLoaded('menuHover', ['frontend'], this)" onmouseout="isJqLoaded('menuHoverOut', ['frontend'], this)" title="Other Tools" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Other Tools</span>
+    <span class="icon-angle-down sub-group-btn-icon"></span>
+    </div>
+    </a>
+    <div class="group-collapse dropdown-submenu" data-level="2">
+    <div class="page-buttons menu-buttons">
+    <div class="dropright menu-drop">
+    <a href="/whatsapp-link-generator" title="WhatsApp Link Generator" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text" data-status="New">WhatsApp Link Generator</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/twitter-video-downloader" title="Twitter Video Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Twitter Video Downloader</span>
+    </div>
+    </a>
+    </div>
+    <div class="dropright menu-drop">
+    <a href="/twitter-gif-downloader" title="Twitter GIF Downloader" class="btn btn-page btn-outline-submenu group-btn ">
+    <div class="justify-center w-100">
+    <span class=""></span>
+    <span class="button-text group-btn-text">Twitter GIF Downloader</span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <style>
+            @media  only screen and (max-width: 777px) {
+                .product-page .nav-pills {
+                    justify-content: center!important;
+                    /* display: block; */
+                    display: flex!important;
+                    flex-direction: column!important;
+                }
+            }
+    
+            .free-trial-or-demo-btn{
+               /* font-size: 1.5rem!important;*/
+                box-sizing: border-box;
+                text-transform: uppercase;
+                display: flex!important;
+                justify-content: center;
+                /*padding: 0!important;*/
+                /*height: 100px;*/
+                align-items: center;
+            }
+            @media (max-width: 990px) {
+                .free-trial-or-demo-btn{
+                    padding: 1.3rem;
+                }
+            }
+            @media    only screen and (max-width : 480px) {
+                .bestByProduct{
+    
+                }
+                .bestByProduct .card{
+                    padding: 0;
+                    height: 260px;
+                }
+                .bestByProduct .card-header{
+                    font-size: 2.8rem;
+                    min-height: auto;
+                }
+            }
+            span.left-box-old-price {
+                font-weight: bolder;
+                position: relative;
+            }
+            span .old-price-container .price-text {
+                font-size: 1.1rem;
+            }
+            span.left-box-old-price:before {
+                content: "";
+                position: absolute;
+                width: 118%;
+                height: 2px;
+                opacity: .8;
+                background-color: #000;
+                transform: translateY(-50%) rotate(-20deg);
+                top: 48%;
+                left: -2px;
+            }
+            .sticky-elements {
+                display: none;
+            }
+    
+            .long-content {
+                width: 100%;
+                height: 1200px;
+                background-color: #eee;
+            }
+    
+            #go-top {
+                z-index: 99999;
+                position: fixed;
+                display: none;
+                margin-top: 20px;
+                padding: 10px 25px;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #05477D;
+                box-shadow: 0 6px 9px rgba(0, 0, 0, 0.4);
+                border-radius: 30px;
+                user-select: none;
+                background-color: #fff;
+                cursor: pointer;
+            }
+            #go-top i {
+                margin-right: 10px;
+            }
+    
+            #cart-summary {
+                z-index: 9999999;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                display: flex;
+                height: 70px;
+                background-color: #fff;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 15px;
+                flex-wrap: wrap;
+            }
+            #cart-summary .price-area {
+                position: relative;
+            }
+            #cart-summary .price-area::before {
+                content: "";
+                width: 1px;
+                height: 100%;
+                background-color: #F4F5F7;
+                position: absolute;
+                left: 45%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            #cart-summary .price-area span {
+                margin: 0 10px;
+            }
+            #cart-summary .price-area span:first-child {
+                margin-left: 0;
+            }
+            #cart-summary .price-area span:last-child {
+                margin-right: 0;
+            }
+            #cart-summary .price-area .sticky-price {
+                color: #42B073;
+                font-weight: 700;
+            }
+            #cart-summary .actions a {
+                margin: 0 4px;
+                padding: 12px;
+                border-radius: 10px;
+                font-size: 16px;
+            }
+            #cart-summary .actions a:first-child {
+                margin-left: 0;
+            }
+            #cart-summary .actions a:last-child {
+                margin-right: 0;
+            }
+            #cart-summary .actions a.cart {
+                margin-right: 75px;
+                background-color: #42B073;
+                color: #FFF;
+            }
+            #cart-summary .actions a.message {
+                border: 2px solid rgba(5, 71, 125, 0.1019607843);
+            }
+            .btn-discord {
+                background-color: #738ADB;
+                color: #fff;
+            }
+            .btn-discord-bg-color {
+                background-color: #738ADB;
+            }
+            .btn-discord .button-text {
+                color: #fff;
+            }
+            .btn-discord:hover {
+                background-color: #6479c2;
+                color: #fff;
+            }
+            .icon-discord:hover {
+                color: #fff;
+            }
+            @media  only screen and (max-width: 768px) {
+                .sticky-elements {
+                    display: block;
+                }
+                .custom-chat-mobile {
+                    height: 40px !important;
+                }
+                .custom-chat-mobile .open-chat:after {
+                    width: 3.1rem !important;
+                    height: 3.1rem !important;
+                }
+                .custom-chat-mobile .open-chat {
+                    font-size : 1.8rem !important;
+                }
+                .chat-mobile-header{
+                    margin-bottom: 15px !important;
+                }
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </style>
+   
+   <section class="pt-5 pb-5 text-center ">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="mb-3">Buy Instagram Likes </h3>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
+                    <i class="bi bi-arrow-left-circle-fill" style="font-size:3rem;"></i>
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-bs-slide="next">
+                    <i class="bi bi-arrow-right-circle-fill" style="font-size:3rem;"></i>
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-12 col-md mb-3" style="width:60px;">
+                                    <div class=" card h-100 rounded-5" >
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>100</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div> 
+                                        <div class="card-body">
+                                            
+                                            <b></b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$0.45</div>
+                                        </div>                
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>250</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            15% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$1.13</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$0.95</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>500</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            24% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$2.25</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$1.70</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>1000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            35% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$4.50</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$2.90</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>2500</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                        37% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$11.25</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$7</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>5000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            40% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$22.50</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$13.50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>10000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            42% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$45.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$26.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>25000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            44% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$112.50</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$62.50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>50000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            46% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$225.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$120.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>100000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            48% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$450.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$230.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>250000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            51% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$1.125.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$550.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>500000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            53% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$2,250.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$1,050.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md mb-3">
+                                    <div class="card h-100 rounded-5">
+                                        <div class="card-header btn-view-bg-color rounded-top-5">
+                                            <b>1000000</b>
+                                            <div class="h4 my-2">
+                                            Views
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="discount-box">
+                                            55% OFF NOW
+                                            </div>
+                                            <span class="pricesClass pricesOld">
+                                            <b>$4,500.00</b></br></br>
+                                            </span>
+                                            <div class="pricesDiscountClass h1">$2,000.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <div class="container warningBottomPages">
+    </div>
+    <div class="product-features row">
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-lightbulb" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">Why Should You Buy Instagram Views?</strong>
+    <p>You can buy Instagram views to grow your account. If you&#039;re trying to be an influencer, views will make your account more visible. If you have a company, or a professional profile, it will be easier for you to promote your products or services.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-search blue" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">WHAT ARE INSTAGRAM VIDEO VIEWS?</strong>
+    <p>Instagram&#039;s algorithm prefers videos with high engagement and a lot of views. Also, people will wonder how you managed to get that many views on your videos. This will add to your clout.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-alarm" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">FAST DELIVERY</strong>
+    <p>We start processing your order as soon as you complete the purchase. Your order is completed within the estimated delivery time that we show on the service&#039;s page.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-bar-chart-line" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">NO RISK OF DECREASE</strong>
+    <p>The services that you buy will be permanent, and there won&#039;t be any decrease. Otherwise, we guarantee you that we will refill your losses in six months after your purchase.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-shield-lock" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">REFUND GUARANTEE</strong>
+    <p>We guarantee a refund for your order if we can&#039;t deliver it within the estimated delivery time (if it is more than three days). For more details, please read our Refund Policy.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-telephone-plus" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+     <strong class="h3">24/7 LIVE SUPPORT</strong>
+    <p>We provide 24/7 live customer support. You can contact us anytime via our embedded chat system, WhatsApp, and email address. Our staff is always ready to help you.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-credit-card-2-front" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">SECURE PAYMENT</strong>
+    <p>You can pay with your credit card through the most secure and trusted payment systems in the world. You don’t have to register to make your payment.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-lock"  style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">NO PASSWORD IS REQUIRED</strong>
+    <p>We never ask your password or any other private information. We recommend you to protect your account and never share your passwords with anyone.</p>
+    </a>
+    </div>
+    <div class="col-md-12 col-lg-6 feature-container">
+    <a class="product-feature">
+    <i class="bi bi-exclamation-circle" style="float:left;font-size:3rem;margin-right:20px;color: #125287;"></i>
+    <strong class="h3">WARNING</strong>
+    <p>In order for your order interactions to be tracked correctly after your purchases, you should not purchase the same products from different sites simultaneously.</p>
+    </a>
+    </div>
+    </div>
+    <article class="product-article" id="contentAll">
+    <div class="entry-content"><div class="container">
+    <div class="pt-md-4 row">
+    <div class="col-lg-4 col-md-6 mb-4"><img alt="Instagram Views" height="420" src="{% static 'blog/img/insta-views/4.png' %}" data-src="#" class="lazy" width="420" /><noscript><img src="#" title="Instagram Views" alt="Instagram Views"/></noscript></div>
+    <div class="col-lg-8 col-md-6 my-auto pl-lg-5">
+    <h2>Why Are Instagram Views Important?</h2>
+    <p>You need to <strong>buy Instagram views</strong> if your aim is to increase your exposure on social media. After its release, the platform quickly implemented a video-sharing feature into the app to compete with the more popular video platforms such as YouTube. Now that the platform is even bigger than ever, you should think about how beneficial it would be to <strong>buy Instagram views</strong> since you could quickly become visible and get "instafamous". If you feel that it is your time to shine, buy your<strong> instant views</strong> from us, and take the first step to be an Instagram star.</p>
+    <p>First, Instagram integrated the video feature with enabling to share only 15-second videos, but later this limit had gone up to 60-seconds. Instagram transformed itself from being just a photo-sharing app to one of the biggest social media platforms. However, sometimes, it can come to be challenging to get views for your videos. If you struggle with reaching a wider audience or you need a boost in video views, you should try <strong>buying Instagram views</strong>.</p>
+    <p>Many businesses or brands realize the importance of being present on Instagram. Thanks to Instagram Insights and other apps that show your analytics, we can easily state that Instagram videos are one of the most interacted types of content.</p>
+    <ul>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="bg-light content-fluit my-5 py-5">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-5 mb-3 mb-md-0 order-md-2 text-center"><img alt="Real Instagram Views" height="420" src="{% static 'blog/img/insta-views/3.jpg' %}" data-src="https://www.instafollowers.co/img/uploads/real-instagram-views.jpg" class="lazy" width="420" /><noscript><img src="https://www.instafollowers.co/img/uploads/real-instagram-views.jpg" title="Real Instagram Views" alt="Real Instagram Views"/></noscript> </div>
+    <div class="col-md-7 my-auto order-md-1 pb-md-4 pr-lg-5 pt-md-5 py-3">
+    <h2>Why Should You Buy Views for Instagram?</h2>
+    <p>Getting an Instagram view to your videos might be a little difficult. That's why, you can do a shortcut and get Instagram views the short way, aka. buying. There are many benefits to buying Instagram views. These are:</p>
+    <ul>
+    <li>It directly affects increasing your popularity. If you have a good number of views on your Instagram, these videos can improve your reputation. It is because, unfortunately, people tend to judge the quality of your videos just by the number of times it has been viewed. That is why if you <strong>buy views</strong>, you will have the chance to make your video go viral on this social media platform.</li>
+    <li>If you are an influencer, you can catch the attention of a brand. If your video goes viral and reaches lots of people worldwide, you will be noticed by not just people but also by companies that might consider working with you online. If you own a company, buying views will also lead to an increase in brand loyalty and trust, which can generate higher levels of revenue in the long term. Your videos will drive more Instagram views to your profile; they can like your other content or follow you to see more from you. These actions can also lead your Instagram or website traffic to rise.</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="pt-md-4 row">
+    <div class="col-lg-4 col-md-6 mb-4"><img alt="Buy Instagram Views" class="text-left lazy" height="420" src="{% static 'blog/img/insta-views/1.jpg'  %}" data-src="https://www.instafollowers.co/img/uploads/buy-instagram-views.png" width="420" /><noscript><img src="#" title="Buy Instagram Views" alt="Buy Instagram Views"/></noscript></div>
+    <div class="col-lg-8 col-md-6 my-auto pl-lg-5">
+    <ul>
+    <li>Your purchased Instagram views will help you to evolve your account from a casual profile to that of an influencer's in the most fabulous way. Videos are the most effective engagement source on Instagram. Therefore, if you want to gain lots of video views and maintain that popularity for a long time, you need to upload videos regularly and make sure people are watching them.</li>
+    <li>When you have higher numbers of video views, it will be much easier for you to get sponsorship deals, affiliated marketing campaigns, and branded content from large companies. Therefore, your investment in our products, i.e., Instagram likes, followers, and video views, your hiring price will be higher as an influencer, and you will receive the best deals that you can possibly get.</li>
+    <li>Instagram's algorithm will reward your hard work by suggesting your videos to newer audiences, and it will be much easier for your content to be displayed on the Explore Page. With the help of the Instagram Explore Page, you can double your views overnight.</li>
+    <li>If you correctly mention your other social media accounts in the suggested video, the chances are high that your other social networks will grow with your Instagram profile too. Everything is linked together on social media platforms, and you would not want to miss the chance to grow organically.</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="bg-light content-fluit my-5 py-5">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-5 mb-3 mb-md-0 order-md-2 text-center"><img alt="Active Instagram Video Views" height="420" src="{% static 'blog/img/insta-views/2.jpg' %}" title="Active Instagram Video Views" alt="Active Instagram Video Views"/></noscript></div>
+    <div class="col-md-7 my-auto order-md-1 pb-md-4 pr-lg-5 pt-md-5 py-3">
+    <h2>Are Our Services Safe to Purchase?</h2>
+    <p>The answer is yes without any doubt because we never ask your Instagram password or anything related to it. Also, we use a very powerful credit card security software for safety measures. With this system, no one, even our staff, can see your critical information since everything is encrypted. Instagram video views do not decrease, but we will provide a refill if you don't get your order correctly. You can place an order from this webpage easily. You can safely benefit from our IG view service.</p>
+    <h2>Buying Instagram Views</h2>
+    <p>If your final decision is to <strong>buy Instagram views</strong> cheap and boost your account, you are in the right place to buy this service. From the packages above, you can see our current prices and choose the best one for your budget to see immediate results. If you want to buy a specific amount of views, you can enter the custom quantity in the dedicated box and reveal the price rate. We are trying our best to provide you with the highest quality instant views at the most affordable prices available. Also, <strong>Instafollowers.co</strong> is the most stable service offering this service. In addition to the option of paying with traditional credit cards, you can also use an online credit card via <strong>PayPal</strong>.</p>
+    <p>Our services are of the highest quality available, 100% real, safe to buy, and fast/effective. You have two options: the first option is to order views for one existing video. If you choose this, you need to paste the link of your video that you want to buy views for into the dedicated box. If you want these views for your future videos, choose the "Automatic Instagram Views" tab</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="pt-md-4 row">
+    <div class="col-lg-4 col-md-6 mb-4"><img alt="Active Instagram Video Views" class="text-left lazy" height="420" src="{% static 'blog/img/insta-views/6-1.png' %}" data-src="#" width="420" /><noscript><img src="{% static 'blog/img/insta-views/6.png' %}" title="Active Instagram Video Views" alt="Active Instagram Video Views"/></noscript></div>
+    <div class="col-lg-8 col-md-6 my-auto pl-lg-5">
+    <h2>How to Buy Instagram Views</h2>
+    <ul>
+    <li>Respectively enter your Instagram username and video quantity for the video you want to buy views for.</li>
+    <li>The total cost will appear below as soon as you enter the number of views.</li>
+    <li>When you are done, you can click the Add to Cart or Buy Now buttons to finish the payment process.</li>
+    </ul>
+    <p>Make sure your Instagram account and your credit card are both safe. We never ask for your Instagram password, and your payment is made securely.</p>
+    <p>You don't need to think of a decrease in video views because they are view counts of real users. People may unfollow you so that the number of video views you have may decrease, but the video view is constant. It never decreases. On the contrary, it increases while more people view your videos.</p>
+    <p>We hope you enjoy using our services. As InstaFollowers, our aim is to provide the best quality service at the most affordable prices. If you have any questions, please ask us via our 24/7 WhatsApp customer care service. We are glad to be able to help you grow your social media accounts.</p>
+    </div>
+    </div>
+    </div>
+    <p style="text-align:center"><iframe title="Video" id="lazyIframe" class="lazy" data-loader="yt" data-src="bieI_pyowDA" src="https://www.instafollowers.co/img/logo/instafollowers/if-logo.svg" allowfullscreen="" height="315" width="560"></iframe> </p></div>
+    <h2 class="h1 main-headline">Frequently Asked Questions</h2><div class="col-md-8 offset-md-2 text-muted mb-5 text-center">Find answers to any questions you may have in mind about our products and tools. If you can't find your answer at FAQ you can reach us via our live support center without a fee.</div><div class="afterJq loading-item"><div class="accordion-container row" id="accordion"><div class="faq-col col-lg-6"><div class="sss"><div id="heading813"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_813" aria-expanded="false" aria-controls="collapse_813"><span class="accordion-title">Is it smart to buy Instagram video views?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_813" class="collapse" aria-labelledby="heading813" data-bs-parent="#accordion"><div class="card-body"><p>Yes, of course! Here's a fact: people will be more than eager to check a video if it has thousands of views. We are curious creatures, and the shiniest thing captures our attention the most.</p></div></div></div><div class="sss"><div id="heading814"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_814" aria-expanded="false" aria-controls="collapse_814"><span class="accordion-title">Can video views decrease in time due to Instagram updates?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_814" class="collapse" aria-labelledby="heading814" data-bs-parent="#accordion"><div class="card-body"><p>When a video is viewed by someone, it is guaranteed that the view count won't decrease in number. All of your views are made by different IPs and devices to stay on your profile indefinitely.</p></div></div></div><div class="sss"><div id="heading815"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_815" aria-expanded="false" aria-controls="collapse_815"><span class="accordion-title">Can Instagram views help my business or brand in any way?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_815" class="collapse" aria-labelledby="heading815" data-bs-parent="#accordion"><div class="card-body"><p>Yes, it can help and its main feature is building brand awareness. If you want people to remember your brand's name, you should buy views as visual media is proven to influence a bigger part of our subconscious.</p></div></div></div><div class="sss"><div id="heading6531"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_6531" aria-expanded="false" aria-controls="collapse_6531"><span class="accordion-title">Can you see who viewed your Instagram videos?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_6531" class="collapse" aria-labelledby="heading6531" data-bs-parent="#accordion"><div class="card-body"><p>You cannot see the profiles that viewed your videos. However, you can see how many people viewed your videos. </p></div></div></div><div class="sss"><div id="heading6532"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_6532" aria-expanded="false" aria-controls="collapse_6532"><span class="accordion-title">What counts as a view on an Instagram video?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_6532" class="collapse" aria-labelledby="heading6532" data-bs-parent="#accordion"><div class="card-body"><p>In a video, Instagram counts a view if the video is watched for at least 3 seconds or more.</p></div></div></div><div class="sss"><div id="heading6533"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_6533" aria-expanded="false" aria-controls="collapse_6533"><span class="accordion-title">Do video repeats count as views?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_6533" class="collapse" aria-labelledby="heading6533" data-bs-parent="#accordion"><div class="card-body"><p>No. Video loops are not considered as views on Instagram.</p></div></div></div></div><div class="faq-col col-lg-6"><div class="sss"><div id="heading6534"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_6534" aria-expanded="false" aria-controls="collapse_6534"><span class="accordion-title">Can you see how many times someone views your Instagram video?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_6534" class="collapse" aria-labelledby="heading6534" data-bs-parent="#accordion"><div class="card-body"><p>Unfortunately, you cannot see who viewed your video multiple times. </p></div></div></div><div class="sss"><div id="heading8601"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_8601" aria-expanded="false" aria-controls="collapse_8601"><span class="accordion-title">Is there a limit for the length of Instagram videos?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_8601" class="collapse" aria-labelledby="heading8601" data-bs-parent="#accordion"><div class="card-body"><p>Yes, the maximum length of Instagram videos is 2 minutes.</p></div></div></div><div class="sss"><div id="heading9390"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9390" aria-expanded="false" aria-controls="collapse_9390"><span class="accordion-title">Is it safe to buy Instagram views?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9390" class="collapse" aria-labelledby="heading9390" data-bs-parent="#accordion"><div class="card-body"><p>Of course, our website is protected by an SSL certificate. So, all your information is safe when purchasing services from us. </p></div></div></div><div class="sss"><div id="heading9391"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9391" aria-expanded="false" aria-controls="collapse_9391"><span class="accordion-title">When will I receive my Instagram views?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9391" class="collapse" aria-labelledby="heading9391" data-bs-parent="#accordion"><div class="card-body"><p>Once you enter the number of views you want in the views quantity box, you can see the estimated delivery time. </p></div></div></div><div class="sss"><div id="heading9392"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9392" aria-expanded="false" aria-controls="collapse_9392"><span class="accordion-title">Can people find out about the Instagram views I buy?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9392" class="collapse" aria-labelledby="heading9392" data-bs-parent="#accordion"><div class="card-body"><p>It is not possible for other users to know it. You cannot see who viewed Instagram videos, you can only see the number of people who viewed the videos. </p></div></div></div><div class="sss"><div id="heading9393"><button class="btn close-btn accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_9393" aria-expanded="false" aria-controls="collapse_9393"><span class="accordion-title">Will Instagram ban my account for buying views?</span><span class="close-container"><span class="flat"></span><span class="steep"></span></span></button></div><div id="collapse_9393" class="collapse" aria-labelledby="heading9393" data-bs-parent="#accordion"><div class="card-body"><p>We have never encountered such an issue. Our views will be delivered in a certain period of time. So, it will not look like spam. </p></div></div></div></div></div></div>
+    </article>
+     <div class="comment-area content-fluit" id="commentArea">
+    <div class="container">
+    <h2 class="h2 text-center">Comment on your experience</h2>
+    <div class="row" vocab="https://schema.org/" typeof="Product">
+    <div class="col-md-8 offset-md-2 text-muted mb-5 text-center">
+    We care about your ideas and opinions. You can help us improve by evaluating our services and tools provided by our website by filling in our &quot;comment on your experience&quot; section down below.
+    </div>
+    <div class="col-md-6 mb-5">
+    <div class="commentPost" id="commentPost">
+    <div class="h2">Leave a Comment</div>
+    <form method="post" >
+        {% csrf_token %}
+        <div class="form-group">
+        <label class="mb-3" for="commentName">Full Name</label>
+        <input type="text" name="full_name" id="commentName" class="form-control" required>
+        </div>
+        <div class="form-group">
+        <label class="mb-3" for="commentEmail">E-Mail</label>
+        <input type="text" name="email" id="commentEmail" class="form-control" required>
+        </div>
+        <div class="form-group">
+        <label class="mb-3">Rating</label>
+        <div class="form-row">
+        <div class="col">
+        <div class="review-rate">
+        <input type="radio" id="star5" class="icon-star-value" name="rate" value="5">
+        <label for="star5" title="text">
+        <span class="icon-star-half"></span>
+        <span class="icon-star"></span>
+        </label>
+        <input type="radio" id="star4" class="icon-star-value" name="rate" value="4">
+        <label for="star4" title="text">
+        <span class="icon-star-half"></span>
+        <span class="icon-star"></span>
+        </label>
+        <input type="radio" id="star3" class="icon-star-value" name="rate" value="3">
+        <label for="star3" title="text">
+        <span class="icon-star-half"></span>
+        <span class="icon-star"></span>
+        </label>
+        <input type="radio" id="star2" class="icon-star-value" name="rate" value="2">
+        <label for="star2" title="text">
+        <span class="icon-star-half"></span>
+        <span class="icon-star"></span>
+        </label>
+        <input type="radio" id="star1" class="icon-star-value" name="rate" value="1">
+        <label for="star1" title="text">
+        <span class="icon-star-half"></span>
+        <span class="icon-star"></span>
+        </label>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="form-group">
+        <label class="mb-3" for="commentComment">Comment</label>
+        <textarea name="text" id="commentComment" cols="30" rows="5" maxlength="500" class="form-control" required></textarea>
+        </div>
+        <div class="form-group mb-0">
+        <button type="submit" id="commentAdd" data-target="12" class="btn btn-primary btn-block py-3 py-md-4" onclick="isJqLoaded('commentAdd',['frontend','global'],this);">Send
+        </button>
+        </div>
+        </div>
+    </form>
+    <div id="commentPostWarning"></div>
+    </div>
+    <div class="col-md-6 mb-3" id="commentList">
+    <div class="comment-list">
+    <div class="commentTotal">
+    <div class="rate-result">
+    <div class="rate-stars">
+    <div class="rate-points">
+    <span class="icon-star item-colored"></span>
+    <span class="icon-star item-colored"></span>
+    <span class="icon-star item-colored"></span>
+    <span class="icon-star item-colored"></span>
+    <span class="icon-star item-colored"></span>
+    </div>
+    <div class="rate-value">
+    <span>5</span> /
+    <span>5</span>
+    </div>
+    </div>
+    <div class="rate-total">
+    <b>Total:</b>
+    <span>993</span> Rating
+    </div>
+    </div>
+    </div>
+    
+    {% for comment in comments %}
+    <blockquote class="blockquote">
+        <p class="commentMore" property="reviewBody">{{comment.text}}</p>
+        <footer class="bg-transparent mb-3 blockquote-footer" property="name">{{comment.full_name}}</footer>
+       
+    </blockquote>
+    {% endfor %}
+    
+    </section>
+    </div>
+    </main>
+    
+    
+    {% endblock %}
